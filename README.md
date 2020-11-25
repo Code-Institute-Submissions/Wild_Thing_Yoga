@@ -24,7 +24,7 @@ December 2020.</p>
 3. [Features](#features)
 4. [Technologies](#technologies)
     * 4.1 [Languages](#languages)
-        * [HTML5](html5)
+        * [HTML5](#html5)
         * [CSS](#css)
     * 4.2 [Frameworks Libraries & Programmes](#frameworks-libraries-&-programmes)
         * [GitHub](#github)
@@ -43,7 +43,7 @@ December 2020.</p>
 7. [Credits](#credits)
 8. [Conclusion](#conclusion)
 
-## 1. Strategic Purpose
+## Strategic Purpose
 This website is created to be the official marketing tool for my business "Wild Thing Yoga".
 It should be a asset to the business to increase growth and improve rates of student retention 
 while also being a of value to the students, improving their customer experience.
@@ -58,34 +58,34 @@ Content should be clear, informative and adapted for screen readers so it is acc
 The site is to be responsive on all devices, while being easy and enjoyable to navigate through. 
 Creating a positive user experience for customers that they will return to again and again.
 
-### **1.1 Design Simulation** 
+### Design Simulation
 TBA ****
 ___
 
-## 2. User Experience Design
+## User Experience Design
 
-### **2.1 User Stories**
-A. **First Time Visitor Goals**
+### User Stories
+First Time Visitor Goals
 > - Easily understands the main purpose and navigation pathways of the site
 > - Information is clearly presented and easily absorbed with minimal effort
 > - Features load quickly, are adapted to my device, my needs and supported by my browser
 > - I can learn more about the offering and their interaction with others via social
  media or through testimonials to determine whether they are trustworthy and of value to me
 
-B. **Returning Visitor Goals**
+Returning Visitor Goals
 > - Easily learn of upcoming classes and book those classes
 > - Access contact information
 > - Avail of free resources
 
-C. **Frequent Visitor Goals**
+Frequent Visitor Goals
 > - Check the class schedule and book classes
 > - Check for new free resources
 > - Learn of changes to their offering, discounts and events
 
 
 
-### **2.2 Design**
-#### **Structure**
+### Design
+#### Structure
 
 The site will be made up of 3 pages with 2 to 3 sections on each page, all pages will have a
 'sticky' navigation bar and a footer containing contact information. 
@@ -99,10 +99,10 @@ The booking page will have our class schedule, pricing information and a booking
 The free resources page will have topical articals and online tutorials, which will be updated 
 reguarly.
 
-#### **Wireframes**
+#### Wireframes
 TBA ******
 
-#### **Color**
+#### Color
 
 <img align="center" src="assets/images/read_me_images/swatch.png">
 
@@ -123,7 +123,7 @@ and a yoga practice. <br>
 
 <em>Please see [credits](#Credits) section for links to color psychology sources.</em>
 
-#### **Typography**
+#### Typography
 
 The Sanchez font, created by [<em>Daniel Hernandez</em>](https://fonts.google.com/specimen/Sanchez?query=sanchez) will be the main font for
 the company name and headings, Raleway which is hosted on google fonts also, by multiple creators,
@@ -132,31 +132,31 @@ if for any reason the main fonts are not being imported or displayed correctly.
 This pairing has clean lines, with a good contrast in weight and lends well to a sense of 
 profesionalism.
 
-#### **Imagery**
+#### Imagery
 Branding is an important marketing tool so a logo has been developed using 
 [<em>Canva.com</em>](#https://www.canva.com/design/DAEOhUvrb0E/PlrtIsOaalfq_bSkxw6D8w/edit?layoutQuery=lotus+logo),
 this logo will feature throughout the website. Images will be supplied
 by myself or from open sources,  please see [<em>credits</em>](#credits) for a list of sources and photographers.
 
-#### **Design Limitations**
+#### Design Limitations
 A 'funkier' more modern layout was originally designed but outside the scope of 
 my current capabilities. A fourth and fifth page for a community forum and merchandise/equipment shop
 will be implimented in the future but was not possible due to time constraints.
 
-## 3. Features
+## Features
  - Responsive on all devices
  - Supported by all browsers
  - Interactive Elements
  - Adapted for users with special accessibility requirements where possible
 
- ## 4. Technologies Used
+ ## Technologies Used
 
- ### **4.1 Languages**
+ ### Languages
 
  - [HTML](#https://www.w3schools.com/html/)
  - [CSS](#https://www.w3schools.com/css/default.asp)
 
- ### **4.2 Frameworks, Libraries & Programs Used**
+ ### Frameworks, Libraries & Programs Used
 
   1. [Git Hub](#https://github.com/janeyrinn/Wild_Thing_Yoga) Used to store and share the projects code.
   2. [Git/GitPod](#https://fde7900b-2e73-4d3d-8066-0c3a506e1ef2.ws-eu01.gitpod.io/#/workspace/Wild_Thing_Yoga) Used for creation, version control and to commit and push to Git Hub.
