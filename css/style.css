@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Sanchez&display=swap');
+
+/*----------------------------------------------------------General Structure & Commmon Components*/
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Sanchez", sans-serif;
+}
+
+body {
+font-family: 'Raleway', sans-serif;
+color: #008080;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+/*----------------------------------------------------------Nav Bar*/
+
+.menu-bar {
+    background-color: #003F5F;
+}
+
+.menu-bar .navbar-toggler {
+    padding-right: 25px;
+    border: none;
+    font-size: 20px;
+}
+
+.navbar-nav {
+    text-align: right;
+    margin-right: 20px;
+}
+
+.nav-link {
+    font-size: 16px;
+    margin: 3px;
+}
+
+.navbar-brand img {
+    margin-left: 20px;
+}
+
+.navbar-brand {
+    font-size: 40px;
+}

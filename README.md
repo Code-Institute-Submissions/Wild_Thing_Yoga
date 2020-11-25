@@ -29,8 +29,9 @@ December 2020.</p>
     * [Frameworks Libraries & Programmes](#frameworks-libraries-&-programmes)
         * GitHub
         * Git/GitPod
-        * Bootstrap v4.5
+        * Bootstrap v4
         * Google Fonts
+        * Font Awesome v4
         * Canva
         * Adobe Color Wheel
         * Balsamiq
@@ -146,7 +147,7 @@ will be implimented in the future but was not possible due to time constraints.
 
 ## Features
  - Responsive on all devices
- - Supported by all browsers
+ - Supported by Chrome, Safari and Firefox browsers
  - Interactive Elements
  - Adapted for users with special accessibility requirements where possible
 
@@ -161,13 +162,14 @@ will be implimented in the future but was not possible due to time constraints.
 
   1. [Git Hub](https://github.com/janeyrinn/Wild_Thing_Yoga) Used to store and share the projects code.
   2. [Git/GitPod](https://fde7900b-2e73-4d3d-8066-0c3a506e1ef2.ws-eu01.gitpod.io/#/workspace/Wild_Thing_Yoga) Used for creation, version control and to commit and push to Git Hub.
-  3. [Bootstrap v4.5](https://getbootstrap.com/) Used for responsivness and styling of the site.
+  3. [Bootstrap v4](https://getbootstrap.com/) Used for responsivness and styling of the site.
   4. [Google Fonts](https://fonts.google.com/) Used to import the Sanchez and Raleway fonts.
-  5. [Canva](https://www.canva.com/) For creation of the logo.
-  6. [Adobe Color Wheel](https://color.adobe.com/create/image-gradient) Image gradient feature was used to extract colors used in the logo and build a colour theme.
-  7. [Balsamiq](https://balsamiq.com/) Used to create wireframes during the design process.
-  8. [Am I Responsive](http://ami.responsivedesign.is/) Used to check responsivity of code and display the mock up in the documentation.
-  9. [MicroSoft Sniping Tool](https://support.microsoft.com/en-us/windows/use-snipping-tool-to-capture-screenshots-00246869-1843-655f-f220-97299b865f6b) Used for various images, such as the color swatch and
+  5. [Font Awesome](https://fontawesome.com/v4.7.0/)
+  6. [Canva](https://www.canva.com/) For creation of the logo.
+  7. [Adobe Color Wheel](https://color.adobe.com/create/image-gradient) Image gradient feature was used to extract colors used in the logo and build a colour theme.
+  8. [Balsamiq](https://balsamiq.com/) Used to create wireframes during the design process.
+  9. [Am I Responsive](http://ami.responsivedesign.is/) Used to check responsivity of code and display the mock up in the documentation.
+  10. [MicroSoft Sniping Tool](https://support.microsoft.com/en-us/windows/use-snipping-tool-to-capture-screenshots-00246869-1843-655f-f220-97299b865f6b) Used for various images, such as the color swatch and
   extraction of usedful information for my project drafts and plans.
 
 ## Testing
