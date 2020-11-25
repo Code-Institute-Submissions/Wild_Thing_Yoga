@@ -4,16 +4,16 @@
 <p align=center>Code Institute, Diploma in Full Stack Software Development Milestone Project 1, 
 December 2020.</p>
 
-## Table of Contents 
+# Table of Contents 
 1. [Strategic Purpose](#strategic-purpose)
-    * 1.1 [Design Simulation](#design-simulation)
+    * [Design Simulation](#design-simulation)
 2. [User Experience Design](#user-experience-design)
-   * 2.1 [User Stories](#user-stories)
+   * [User Stories](#user-stories)
         * [First Time Visitor Goals](#first-time-visitor-goals)
         * [Returning Visitor Goals](#returning-visitor-goals)
         * [Frequent Visitor Goals](#frequent-visitor-goals)
 
-    * 2.2 [Design](#design)
+    *  [Design](#design)
         * [Structure](#structure)
         * [Wire Frames](#wire-frames)
         * [Color Scheme](#color-scheme)
@@ -23,19 +23,19 @@ December 2020.</p>
 
 3. [Features](#features)
 4. [Technologies](#technologies)
-    * 4.1 [Languages](#languages)
-        * [HTML5](#html5)
-        * [CSS](#css)
-    * 4.2 [Frameworks Libraries & Programmes](#frameworks-libraries-&-programmes)
-        * [GitHub](#github)
-        * [Git/GitPod](#git/gitpod)
-        * [Bootstrap v4.5](#bootstrap)
-        * [Google Fonts](#google-fonts)
-        * [Canva](#canva)
-        * [Adobe Color Wheel](#adobe-color-wheel)
-        * [Balsamiq](#balsamiq)
-        * [Am I Responsive](#am-i-responsive)
-        * [MicroSoft Snipping Tool](#microsoft-snippin-tool)
+    * [Languages](#languages)
+        * HTML
+        * CSS
+    * [Frameworks Libraries & Programmes](#frameworks-libraries-&-programmes)
+        * GitHub
+        * Git/GitPod
+        * Bootstrap v4.5
+        * Google Fonts
+        * Canva
+        * Adobe Color Wheel
+        * Balsamiq
+        * Am I Responsive
+        * MicroSoft Snipping Tool
         
     
 5. [Testing](#testing)
@@ -65,19 +65,20 @@ ___
 ## User Experience Design
 
 ### User Stories
-First Time Visitor Goals
+#### First Time Visitor Goals
+
 > - Easily understands the main purpose and navigation pathways of the site
 > - Information is clearly presented and easily absorbed with minimal effort
 > - Features load quickly, are adapted to my device, my needs and supported by my browser
 > - I can learn more about the offering and their interaction with others via social
  media or through testimonials to determine whether they are trustworthy and of value to me
 
-Returning Visitor Goals
+#### Returning Visitor Goals
 > - Easily learn of upcoming classes and book those classes
 > - Access contact information
 > - Avail of free resources
 
-Frequent Visitor Goals
+#### Frequent Visitor Goals
 > - Check the class schedule and book classes
 > - Check for new free resources
 > - Learn of changes to their offering, discounts and events
@@ -169,7 +170,7 @@ will be implimented in the future but was not possible due to time constraints.
   9. [MicroSoft Sniping Tool](#https://support.microsoft.com/en-us/windows/use-snipping-tool-to-capture-screenshots-00246869-1843-655f-f220-97299b865f6b) Used for various images, such as the color swatch and
   extraction of usedful information for my project drafts and plans.
 
-## 5. Testing
-## 6. Deployment
-## 7. Credits
-## 8. Conclusion
+## Testing
+## Deployment
+## Credits
+## Conclusion
