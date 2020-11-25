@@ -135,7 +135,7 @@ profesionalism.
 
 #### Imagery
 Branding is an important marketing tool so a logo has been developed using 
-[<em>Canva.com</em>](#https://www.canva.com/design/DAEOhUvrb0E/PlrtIsOaalfq_bSkxw6D8w/edit?layoutQuery=lotus+logo),
+[<em>Canva.com</em>](https://www.canva.com/design/DAEOhUvrb0E/PlrtIsOaalfq_bSkxw6D8w/edit?layoutQuery=lotus+logo),
 this logo will feature throughout the website. Images will be supplied
 by myself or from open sources,  please see [<em>credits</em>](#credits) for a list of sources and photographers.
 
