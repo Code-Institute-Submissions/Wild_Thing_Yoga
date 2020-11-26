@@ -4,7 +4,6 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family: "Sanchez", sans-serif;
 }
 
 body {
@@ -17,14 +16,15 @@ color: #008080;
     height: 100px;
     border-radius: 50%;
 }
+/*----------------------------------------------------------Colours*/
 
-/*----------------------------------------------------------Nav Bar*/
-
-.menu-bar {
+.menu-footer {
     background-color: #003F5F;
 }
 
-.menu-bar .navbar-toggler {
+/*----------------------------------------------------------Nav Bar*/
+/**/
+.menu-footer .navbar-toggler {
     padding-right: 25px;
     border: none;
     font-size: 20px;
@@ -37,7 +37,7 @@ color: #008080;
 
 .nav-link {
     font-size: 16px;
-    margin: 3px;
+    margin: 4px;
 }
 
 .navbar-brand img {
@@ -46,4 +46,19 @@ color: #008080;
 
 .navbar-brand {
     font-size: 40px;
+    font-family: 'Sanchez', sans-serif;
+}
+
+a.nav-item.nav-link.hvr-underline-from-center::before{ /*Thank you to Haley in tutor support for assistance in targetting this element via dev tools*/
+    background-color: white;
+    height: 1px;
+}
+
+.dropdown-menu {
+    background-color:#008080;
+    font: white;
+}
+
+a.dropdown-item {
+    color: white;
 }
