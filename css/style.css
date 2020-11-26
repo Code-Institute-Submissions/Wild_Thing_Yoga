@@ -16,15 +16,32 @@ color: #008080;
     height: 100px;
     border-radius: 50%;
 }
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.block {
+    display: block;
+}
+
+ul {
+    list-style: none;
+}
 /*----------------------------------------------------------Colours*/
 
-.menu-footer {
+.nav-menu {
     background-color: #003F5F;
+    color: white;
 }
 
 /*----------------------------------------------------------Nav Bar*/
-/**/
-.menu-footer .navbar-toggler {
+
+.nav-menu .navbar-toggler {
     padding-right: 25px;
     border: none;
     font-size: 20px;
@@ -61,4 +78,68 @@ a.nav-item.nav-link.hvr-underline-from-center::before{ /*Thank you to Haley in t
 
 a.dropdown-item {
     color: white;
+}
+
+/*----------------------------------------------------------Footer*/
+/*The Below is Taken & Modified from Matt Rudge UCD Resume Challenge*/
+footer {
+   background-color: #003F5F;
+   color: white; 
+   padding: 8px 16px 8px 16px;
+   min-height: 120px;
+  
+}
+
+h6 {
+    text-align: center;
+    font-size: 20px;
+    font-family: "Sanchez", sans-serif;
+}
+
+.footer {
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+p.footer i {
+    width: 32px; 
+    height: 32px;
+    padding: 12px;
+    margin-right: 2px;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #008080; 
+}
+
+.social-btns{
+    text-align: center;
+    
+}
+.social-btns li {
+    display: inline;
+}
+
+.social-btns li a i {
+    width: 32px; 
+    height: 32px;
+    padding: 12px 0;
+    margin-right: 2px;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #008080;
+}
+
+.social-btns li a i:hover {
+    background-color: #fafafa;
+    color: #008080;
 }
