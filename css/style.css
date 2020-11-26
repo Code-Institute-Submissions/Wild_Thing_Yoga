@@ -118,6 +118,10 @@ p.footer i {
     background: #008080; 
 }
 
+img.logo.footer {
+    margin-left: auto;
+    margin-right: auto;
+}
 .social-btns{
     text-align: center;
     
