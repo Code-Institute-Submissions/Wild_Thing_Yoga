@@ -71,9 +71,11 @@ ul {
 
 @media screen and (max-width: 600px) {
   .navbar-brand {
-    font-size: 10px;
+    font-size: 20px;
   }
 }
+
+
 
 a.nav-link.hvr-underline-from-center::before{ /*Thank you to Haley in tutor support for assistance in targetting this element via dev tools*/
     background-color: white;
@@ -132,7 +134,7 @@ img.logo.footer {
     width: 100px;
     height: 100px;
 }
-.social-btns{
+.social-btns {
     text-align: center;
     
 }
@@ -157,3 +159,22 @@ img.logo.footer {
     border-radius: 50%;
     color: black;
 }
+
+#newsletter {
+    text-align: center;
+}
+
+.newsletter {
+    color: #222222;
+    border-radius: 5px;
+    border: none;
+    padding: 2.5px 2px 2.5px 2px;
+}
+.subscribe {
+    color: #222222;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    padding: 2.5px 2px 2.5px 2px;
+}
+
