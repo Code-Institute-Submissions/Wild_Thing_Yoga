@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Sanchez&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Raleway&display=swap');
 
 /*----------------------------------------------------------General Structure & Commmon Components*/
 * {
@@ -8,7 +9,8 @@
 
 body {
 font-family: 'Raleway', sans-serif;
-color: #008080;
+color: #222222;
+
 }
 
 .logo {
@@ -35,7 +37,7 @@ ul {
 /*----------------------------------------------------------Colours*/
 
 .nav-menu {
-    background-color: #003F5F;
+    background-color:#91AC98;
     color: white;
 }
 
@@ -59,11 +61,13 @@ ul {
 
 .navbar-brand img {
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 .navbar-brand {
-    font-size: 40px;
-    font-family: 'Sanchez', sans-serif;
+    font-size: 30px;
+    color: #222222!important;
+    font-family: 'Dancing Script', sans-serif;
 }
 
 a.nav-item.nav-link.hvr-underline-from-center::before{ /*Thank you to Haley in tutor support for assistance in targetting this element via dev tools*/
@@ -72,7 +76,7 @@ a.nav-item.nav-link.hvr-underline-from-center::before{ /*Thank you to Haley in t
 }
 
 .dropdown-menu {
-    background-color:#008080;
+    background-color:#91AC98;
     font: white;
 }
 
@@ -83,44 +87,46 @@ a.dropdown-item {
 /*----------------------------------------------------------Footer*/
 /*The Below is Taken & Modified from Matt Rudge UCD Resume Challenge*/
 footer {
-   background-color: #003F5F;
+   background-color: #91AC98;
    color: white; 
    padding: 8px 16px 8px 16px;
    min-height: 120px;
-  
 }
 
 h6 {
     text-align: center;
     font-size: 20px;
-    font-family: "Sanchez", sans-serif;
+    font-family: "Dancing Script", sans-serif;
+    color:#222222;
 }
 
 .footer {
     display: block;
     text-align: center;
-    font-size: 15px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    
+    font-size: 10px;
+    font-weight: 550;
+    margin-top: 5px;
+    margin-bottom: 5px;    
 }
 
 p.footer i {
     width: 32px; 
     height: 32px;
     padding: 12px;
-    margin-right: 2px;
-    border-radius: 50%;
+    margin-right: 2px;  
     font-size: 13px;
     line-height: 7px;
     text-align: center;
     color: #fafafa;
-    background: #008080; 
+    
 }
 
 img.logo.footer {
-    margin-left: auto;
     margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
 }
 .social-btns{
     text-align: center;
@@ -135,15 +141,15 @@ img.logo.footer {
     height: 32px;
     padding: 12px 0;
     margin-right: 2px;
-    border-radius: 50%;
     font-size: 13px;
     line-height: 7px;
     text-align: center;
     color: #fafafa;
-    background: #008080;
+    
 }
 
 .social-btns li a i:hover {
     background-color: #fafafa;
-    color: #008080;
+    border-radius: 50%;
+    color: black;
 }

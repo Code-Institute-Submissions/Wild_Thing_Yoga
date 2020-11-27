@@ -1,5 +1,5 @@
 <h1 align=center>Wild Thing Yoga</h1>
-<h2 align="center"><img src="assets/images/read_me_images/readmelogo.jpg"></h2>
+<h2 align="center"><img src="assets/images/resources/logo.png"></h2>
 
 <p align=center>Code Institute, Diploma in Full Stack Software Development Milestone Project 1, 
 December 2020.</p>
@@ -114,14 +114,15 @@ Colors are brand colors which have been adopted for the following reasons:<br>
 
 Color | Consumer Association
 ------|---------------------
-Blue | Peaceful, trustworthy, loyalty with a soothing & calming effect
-Teals/Green | Acepting, supportive, growth, recurrance, safety & balance
+Black | Elegance, sophistication
+Beige | Neutral, Calming, Relaxing, Dependable
+Green | Growth, recurrance, safety & balance
 White | Goodness, purity, safety & new beginnings
-Grey | Stable, calm, composure, quiet & reserved, transitional
 
 All colours tie together to make the appropriate emotional responce
 and associations the brands identifies with their business, yoga 
-and a yoga practice. <br>
+and a yoga practice. The colours also combine for effective and an easy to 
+read layout. <br>
 
 <em>Please see [credits](#Credits) section for links to color psychology sources.</em>
 
