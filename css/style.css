@@ -42,11 +42,6 @@ h6 {
     color:#222222;
 }
 
-h1 {
-    font-family: "Dancing Script", sans-serif;
-    color: white;
-    font-size: 30px;
-}
 
 /*----------------------------------------------------------Colours*/
 
@@ -112,8 +107,35 @@ a.dropdown-item {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
     position: relative;
 }
+
+#text-overlay { 
+    max-height: 100px;
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;  
+}
+#text-overlay h1 {
+    color: White;
+    font-size: 60px; 
+    text-transform: capitalize;
+}
+
+.booking-btn {
+    font-family: 'Dancing Script', sans-serif;
+    color: #A5907C;
+    background-color: white; 
+    border-radius: 30px;
+    font-size: 30px;
+    border: none;
+    padding: 10px 15px 10px 15px; 
+}
+
 /*----------------------------------------------------------Footer*/
 /*The Below is Taken & Modified from Matt Rudge UCD Resume Challenge Code Institute*/
 
