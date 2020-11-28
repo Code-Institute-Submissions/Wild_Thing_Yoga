@@ -42,6 +42,12 @@ h6 {
     color:#222222;
 }
 
+h1 {
+    font-family: "Dancing Script", sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
 /*----------------------------------------------------------Colours*/
 
 
@@ -97,11 +103,17 @@ a.dropdown-item {
     color: white;
 }
 /*----------------------------------------------------------Call Out Container*/
-/*The Below is Taken & Modified from Brian O'Grady Love Running Challenge Code Institute*/
+/*The Below is Taken & Modified from Matt Rudge Whiskey Drop Challenge Code Institute*/
 
-
-
-
+.callout-container {
+    background: url(/assets/images/home/heroimage.jpg) no-repeat bottom right fixed;
+    height: 75vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
 /*----------------------------------------------------------Footer*/
 /*The Below is Taken & Modified from Matt Rudge UCD Resume Challenge Code Institute*/
 
