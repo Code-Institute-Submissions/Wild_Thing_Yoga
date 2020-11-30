@@ -101,29 +101,35 @@ a.dropdown-item {
 /*The Below is Taken & Modified from Matt Rudge Whiskey Drop Challenge Code Institute*/
 
 .callout-container {
-    background: url(/assets/images/home/heroimage.jpg) no-repeat bottom right fixed;
+    background: url(../assets/images/home/heroimage.jpg) no-repeat bottom right fixed;
     height: 75vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
-    display: flex; 
+    background-size: cover; 
     align-items: center;
     justify-content: center;
-    position: relative;
+    position: relative;    
 }
 
-#text-overlay { 
+.call-to-action{
+    align-items: center;
+    position: absolute;
     max-height: 100px;
-    display: block;
     text-align: center;
-    margin-top: 5px;
-    margin-bottom: 5px;  
+    margin-top: 220px;
 }
-#text-overlay h1 {
-    color: White;
+
+.call-to-action h1 {
+    color: white;
     font-size: 60px; 
     text-transform: capitalize;
+}
+
+@media (max-width: 480px) {
+  .call-to-action {
+    margin-top: 30px;
+  }
 }
 
 .booking-btn {
@@ -133,8 +139,10 @@ a.dropdown-item {
     border-radius: 30px;
     font-size: 30px;
     border: none;
-    padding: 10px 15px 10px 15px; 
+    padding: 10px 15px 10px 15px;
 }
+
+
 
 /*----------------------------------------------------------Footer*/
 /*The Below is Taken & Modified from Matt Rudge UCD Resume Challenge Code Institute*/
