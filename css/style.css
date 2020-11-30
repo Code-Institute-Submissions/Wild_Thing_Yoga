@@ -42,6 +42,14 @@ h6 {
     color:#222222;
 }
 
+h2 {
+   text-align: center;
+    font-size: 50px;
+    font-family: "Dancing Script", sans-serif;
+    color:#222222; 
+    margin: 20px;
+}
+
 
 /*----------------------------------------------------------Colours*/
 
@@ -117,7 +125,7 @@ a.dropdown-item {
     position: absolute;
     max-height: 100px;
     text-align: center;
-    margin-top: 250px;
+    margin-top: 220px;
 }
 
 .call-to-action h1 {
@@ -128,7 +136,13 @@ a.dropdown-item {
 
 @media (max-width: 480px) {
   .call-to-action {
-    margin-top: 30px;
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 1024px) {
+     .call-to-action {
+    margin-top: 250px;
   }
 }
 
@@ -141,6 +155,18 @@ a.dropdown-item {
     border: none;
     padding: 10px 15px 10px 15px;
 }
+
+/*----------------------------------------------------------Offering*/
+
+.body-content {
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;   
+}
+
+
 
 /*----------------------------------------------------------Footer*/
 /*The Below is Taken & Modified from Matt Rudge UCD Resume Challenge Code Institute*/
