@@ -117,7 +117,7 @@ a.dropdown-item {
     position: absolute;
     max-height: 100px;
     text-align: center;
-    margin-top: 220px;
+    margin-top: 250px;
 }
 
 .call-to-action h1 {
@@ -141,8 +141,6 @@ a.dropdown-item {
     border: none;
     padding: 10px 15px 10px 15px;
 }
-
-
 
 /*----------------------------------------------------------Footer*/
 /*The Below is Taken & Modified from Matt Rudge UCD Resume Challenge Code Institute*/
