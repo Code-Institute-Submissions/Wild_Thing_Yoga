@@ -50,6 +50,13 @@ h2 {
     margin: 20px;
 }
 
+.body-content {
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;   
+}
 
 /*----------------------------------------------------------Colours*/
 
@@ -158,14 +165,11 @@ a.dropdown-item {
 
 /*----------------------------------------------------------Offering*/
 
-.body-content {
-    display: block;
-    font-size: 20px;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;   
+.offering-container {
+    margin: auto;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
-
 /*----------------------------------------------------------Footer*/
 /*The Below is Taken & Modified from Matt Rudge UCD Resume Challenge Code Institute*/
 
