@@ -172,6 +172,8 @@ will be implimented in the future but was not possible due to time constraints.
   9. [Am I Responsive](http://ami.responsivedesign.is/) Used to check responsivity of code and display the mock up in the documentation.
   10. [MicroSoft Sniping Tool](https://support.microsoft.com/en-us/windows/use-snipping-tool-to-capture-screenshots-00246869-1843-655f-f220-97299b865f6b) Used for various images, such as the color swatch and
   extraction of usedful information for my project drafts and plans.
+  11. [Microsoft Photo Editor](https://support.microsoft.com/en-us/windows/edit-photos-and-videos-in-windows-10-a3a6e711-1b70-250a-93fa-ef99048a2c86) Used for editing the resolution of photos in the carosel 
+  to tone in with the colour scheme.
 
 ## Testing
 ## Deployment

@@ -109,7 +109,7 @@ a.dropdown-item {
 /*The Below is Taken & Modified from Matt Rudge Whiskey Drop Challenge Code Institute*/
 
 .callout-container {
-    background: url(../assets/images/home/heroimage.jpg) no-repeat bottom right fixed;
+    background: url(../assets/images/home/heroimage.jpg) no-repeat bottom right fixed; /*Call out image : Thanks to Jared Rice at unsplash.com*/
     height: 75vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -165,8 +165,6 @@ a.dropdown-item {
     margin-top: 20px;
     margin-bottom: 20px;   
 }
-
-
 
 /*----------------------------------------------------------Footer*/
 /*The Below is Taken & Modified from Matt Rudge UCD Resume Challenge Code Institute*/
