@@ -19,7 +19,7 @@
     <section id="NavBar">
 	<div class="header">
 		<div class="nav-menu">
-			<nav class="navbar navbar-expand-lg navbar-dark">
+			<nav class="navbar fixed-top navbar-expand-lg navbar-dark">
 				<a class="navbar-brand"
 					href="index.html"><img  class="logo" src="assets/logo.png" alt="logo">
                     Yoga Classes for Kids Teens & Adults</a>
@@ -47,7 +47,7 @@
 								</a>
 								<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 									<a class="dropdown-item" href="#">Contact Details</a>
-									<a class="dropdown-item" href="#">Contact Form</a>
+									<a class="dropdown-item" href="#contact-form">Contact Form</a>
 									<a class="dropdown-item" href="schedule.html">Book a Class</a>
 								</div>
 							</li>
@@ -193,7 +193,38 @@
         </div>
     </div>
 </div>
+<!--End Faqs-->
+<!--Start Contact form-->
+<section id="contact-us">
+<div class="row justify-content-center">
+        <div class="col-12">
+        <h2>Still Have Questions? Send us a Message!</h2>
+        <hr class="hr-med">
 
+    <!--Form code taken from Bootstrap Library V4.5 and customized-->
+    <div class="container-fluid">
+	<div class="row">
+        <div class="col-sm-12 contact-form">
+		<form method="POST">
+			<div class="form-group">
+				<input type="name" class="form-control" id="name" placeholder="Your Name" required>
+	</div>
+				<div class="form-group">
+					<input type="email" class="form-control" id="email_address" placeholder="Your Email Address" required>
+	</div>
+					<div class="form-group">
+						<textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Ask your questions here" rows="6" required></textarea>
+					</div>
+                    <div class="form-group">
+                    <input type="submit" value="Send It!" class="send-it">
+                    </div>
+		</form>
+	</div>
+	</div>
+    </div>
+</div>
+</div>
+</section>
 </div>
 </div>
 </section>
@@ -223,10 +254,10 @@
 					<li><a href="https://www.pinterest.ie/"
 							target="_blank"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
 				</ul>
-				<form id="newsletter">
+				<form method="POST" id="newsletter">
 					<em>Recieve updates & discounts with our newsletter</em>
                     <br>
-					<input type="text" placeholder=" Email Address" class="newsletter">
+					<input type="text-input" name="email" id="email" placeholder=" Email Address" class="newsletter">
 					<input type="submit" value="Subscribe!" class="subscribe">
                 </form>
 			</div>

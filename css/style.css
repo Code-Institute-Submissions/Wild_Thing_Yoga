@@ -66,6 +66,9 @@ h5 {
 /*The code below will target and over ride style rules in the bootstrap nav bar,
 how to do this was learnt via Web Dev Tutorials Channel on Youtube, see credits in README.md code is customized and my own */
 
+.fixed-top {
+    position: fixed;
+}
 .nav-menu .navbar-dark {
     background-color: #91AC98!important;
 }
@@ -192,6 +195,7 @@ types so the effect and position is consitent over multiple devices*/
     padding-bottom: 20px; 
     background-color: rgb(145, 172, 152, 0.5);
     margin-top: 10px;
+    border-radius: 5px;
 }
 .review-images {
     width: 200px;
@@ -205,6 +209,7 @@ types so the effect and position is consitent over multiple devices*/
 
 .faqs {
     background-color: rgb(165, 144, 124, 0.5);
+    border-radius: 5px;
 }
 
 .faqs-questions {
@@ -218,6 +223,25 @@ types so the effect and position is consitent over multiple devices*/
     padding-bottom: 20px; 
 }
 
+/*----------------------------------------------------------Contact Form*/
+/*The code below will style the Form section the form will not submit to any data base as this is not required for the MS1
+this will be updated to function in the future*/
+
+.contact-form {
+    background-color:rgb(145, 172, 152, 0.5);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+
+.send-it {
+    display: center;
+    color: #222222;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    padding: 2.5px 2px 2.5px 2px;
+}
 /*----------------------------------------------------------Footer*/
 /*The Below is Taken & Modified from Matt Rudge UCD Resume Challenge Code Institute,
 this code will style the footer*/
