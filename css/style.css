@@ -31,7 +31,7 @@ h2 {
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 35px;
     font-family: "Dancing Script", sans-serif;
     color:#222222;
 }
@@ -59,6 +59,7 @@ h5 {
     margin-bottom: 1.875rem;
     margin-left: auto;
     margin-right: auto;
+    z-index: 1;
 }
 
 /*----------------------------------------------------------Nav Bar*/
@@ -188,13 +189,33 @@ types so the effect and position is consitent over multiple devices*/
 .reviews-p {
     text-align: justify;
     font-size: 20px; 
-    padding-bottom: 20px;  
+    padding-bottom: 20px; 
+    background-color: rgb(145, 172, 152, 0.5);
+    margin-top: 10px;
 }
 .review-images {
     width: 200px;
     height: 200px;
     margin: auto;
     margin-top: 15%;  
+}
+
+/*----------------------------------------------------------FAQs*/
+/*The code below will style the FAQs section*/
+
+.faqs {
+    background-color: rgb(165, 144, 124, 0.5);
+}
+
+.faqs-questions {
+    background-color: white;
+    margin-top: 5px;
+    border-bottom: #222222 solid 1px;
+}
+.faqs-p {
+    text-align: justify;
+    font-size: 20px; 
+    padding-bottom: 20px; 
 }
 
 /*----------------------------------------------------------Footer*/
