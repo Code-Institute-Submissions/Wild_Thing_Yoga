@@ -145,13 +145,13 @@ This code will style the call out container*/
     position: relative;    
 }
 
-.call-to-action{
+/*.call-to-action{
     align-items: center;
     position: absolute;
     max-height: 100px;
     text-align: center;
     margin-top: 250px;
-}
+}*/
 
 .jumbotron {
     background-color: transparent;
@@ -210,6 +210,23 @@ types so the effect and position is as consitent as possible over multiple devic
         margin-top: 350px;
     }
 }
+
+/*----------------------------------------------------------Schedule Hero Image*/
+/*The Below is Taken & Modified from Matt Rudge Whiskey Drop Challenge Code Institute.
+This code will style the Hero Image on the Schedule & Pricing Page*/
+
+.schedule-hero-img {
+    background: url(../assets/images/schedule/sazonova4.jpg) no-repeat bottom right fixed; /*Call out image : Thanks to Jared Rice at unsplash.com*/
+    height: 80vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    align-items: center;
+    justify-content: center;
+    position: relative;    
+}
+
 
 /*----------------------------------------------------------Offering*/
 /*The code below will style the content in the offering*/
