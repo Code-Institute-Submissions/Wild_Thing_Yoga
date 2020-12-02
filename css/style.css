@@ -92,7 +92,7 @@ how to do this was learnt via Web Dev Tutorials Channel on Youtube, see credits 
 }
 
 .nav-link {
-    font-size: 16px;
+    font-size: 20px;
     margin: 4px;
 }
 
@@ -107,7 +107,7 @@ how to do this was learnt via Web Dev Tutorials Channel on Youtube, see credits 
     font-family: 'Dancing Script', sans-serif;
 }
 
-@media screen and (max-width: 600px) { /*This media query will make the Navbar brand text disappear on smaller screens*/
+@media only screen and (max-width: 600px) { /*This media query will make the Navbar brand text disappear on smaller screens*/
     .navbar-brand {
     font-size: 0px;
     }
@@ -125,13 +125,17 @@ a.nav-link.hvr-underline-from-center::before{ /* Hover animation was found at ht
 a.dropdown-item {
     color: white;
 }
+
+a.dropdown-item:active {
+    background-color: #A5907C;
+}
 /*----------------------------------------------------------Call Out Container*/
 /*The Below is Taken & Modified from Matt Rudge Whiskey Drop Challenge Code Institute.
 This code will style the call out container*/
 
 .callout-container {
     background: url(../assets/images/home/heroimage.jpg) no-repeat bottom right fixed; /*Call out image : Thanks to Jared Rice at unsplash.com*/
-    height: 75vh;
+    height: 80vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -146,7 +150,11 @@ This code will style the call out container*/
     position: absolute;
     max-height: 100px;
     text-align: center;
-    margin-top: 220px;
+    margin-top: 250px;
+}
+
+.jumbotron {
+    background-color: transparent;
 }
 
 .call-to-action h1 {
@@ -165,18 +173,41 @@ This code will style the call out container*/
     padding: 10px 15px 10px 15px;
 }
 
-/*The media queries below will style the call to action to adjust for different screen
-types so the effect and position is consitent over multiple devices*/
+a.btn.booking-btn:hover {
+    background-color: #91AC98;
 
-@media (max-width: 480px) {
-    .call-to-action {
-    margin-top: 50px;
+}
+
+/*The media queries below will style the call to action to adjust for different screen
+types so the effect and position is as consitent as possible over multiple devices*/
+
+@media only screen and (max-width: 600px) {
+    .call-to-action h1 {
+    font-size: 25px;
     }
 }
 
-@media (min-width: 1024px) {
+@media only screen and (min-width: 768px) {
     .call-to-action {
-    margin-top: 250px;
+        margin-top: 300px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .call-to-action {
+        margin-top: 500px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .call-to-action {
+        margin-top: 250px;
+    }
+}
+
+@media only screen and (min-width: 1700px) {
+    .call-to-action {
+        margin-top: 350px;
     }
 }
 
@@ -240,6 +271,22 @@ this will be updated to function in the future*/
     padding-top: 20px;
     padding-bottom: 20px;
     border-radius: 5px;
+}
+
+input#name.form-control:hover {
+    border: solid black 1px;
+}
+
+input#email_address.form-control:hover {
+    border: solid black 1px;
+}
+
+textarea#textarea1.form-control:hover {
+    border: solid black 1px;
+}
+
+input.btn.btn-light.button:hover {
+    background-color: #A5907C;
 }
 
 /*----------------------------------------------------------Footer*/
@@ -323,6 +370,10 @@ ul.social-btns {
     border-radius: 5px;
     border: none;
     padding: 2.5px 2px 2.5px 2px;
+}
+
+input#email.newsletter:hover {
+    border: solid black 1px;
 }
 
 /*End*/

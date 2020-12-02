@@ -15,63 +15,85 @@
 </head>
 
 <body>
-	<!--Start of NavBar : Taken from Bootstrap V4 Components-->
-	<div class="header">
-		<div class="nav-menu">
-			<nav class="navbar fixed-top navbar-expand-lg navbar-dark">
-				<a class="navbar-brand"
-					href="index.html"><img  class="logo" src="assets/images/resources/logo.png" alt="logo">
+	<!--Start of Nav Bar : Taken from Bootstrap V4 Components-->
+	<section id="NavBar">
+		<div class="header">
+			<div class="nav-menu">
+				<nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+					<a class="navbar-brand" href="index.html"><img  class="logo" src="assets/logo.png" alt="logo">
                     Yoga Classes for Kids Teens & Adults</a>
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" 
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                     aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     </button>
-					<div class="collapse navbar-collapse" id="navbarNavDropdown">
-						<ul class="navbar-nav ml-auto">
-							<li class="nav-item active">
-								<a class="nav-link hvr-underline-from-center" href="index.html">Home</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link hvr-underline-from-center " href="schedule.html">Schedule & Pricing <span class="sr-only">(current)</span></a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link hvr-underline-from-center" href="resources.html">Free Resources</a>
-							</li>
-							<li class="nav-item dropdown">
-								<a class="nav-link hvr-underline-from-center dropdown-toggle" href="#"
-									id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
-									aria-haspopup="true" aria-expanded="false">
-									Contact Us
-								</a>
-								<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-									<a class="dropdown-item" href="#">Contact Details</a>
-									<a class="dropdown-item" href="contact-us">Contact Form</a>
-									<a class="dropdown-item" href="schedule.html">Book a Class</a>
-								</div>
-							</li>
-						</ul>
-					</div>
-			</nav>
+						<div class="collapse navbar-collapse" id="navbarNavDropdown">
+							<ul class="navbar-nav ml-auto">
+								<li class="nav-item active">
+									<a class="nav-link hvr-underline-from-center" href="index.html">Home
+										<span class="sr-only">(current)</span></a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link hvr-underline-from-center " href="schedule.html">Schedule &
+										Pricing</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link hvr-underline-from-center" href="resources.html">Free
+										Resources</a>
+								</li>
+								<li class="nav-item dropdown">
+									<a class="nav-link hvr-underline-from-center dropdown-toggle" href="#"
+										id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+										aria-haspopup="true" aria-expanded="false">
+										Contact Us
+									</a>
+									<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+										<a class="dropdown-item" href="#Contact Details">Contact Details</a>
+										<a class="dropdown-item" href="#Contact Us">Contact Form</a>
+										<a class="dropdown-item" href="schedule.html">Book a Class</a>
+									</div>
+								</li>
+							</ul>
+						</div>
+				</nav>
+			</div>
 		</div>
-	</div>
+	</section>
 	<!--End of Navbar-->
-	<p> SOME SCHEDULE CONTENT & TEXT HERE</p>
-	<!--Start of Footer-->
+
+	<!--Start of Callout Container-->
+	<section id="call out container">
+		<div class="container-fluid callout-container">
+			<div class="row">
+				<div class="col-12 call-to-action">
+					<div class="jumbotron">
+						<h1 class="display-4">Start your yoga journey today</h1>
+						<p class="lead">
+							<a class="btn booking-btn" href="schedule.html" role="button">Book Now</a>
+						</p>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--End of Callout Container-->
+
+<!--Start of Footer /The Below is Taken & Modified from Matt Rudge UCD Resume Challenge-->
 	<footer class="container-fluid">
 		<div class="row">
-			<div class="col-sm-4">
+			<div class="col-sm-12 col-md-4" id="Contact Details">
 				<h5 class="footer">Contact Details</h5>
 				<p class="footer"><i class="fa fa-map-marker" aria-hidden="true"></i>
-					The Old Mill, Pescara, Italy</p>
-				<p class="footer"><i class="fa fa-phone" aria-hidden="true"></i>
-					087 66 55 443</p>
-				<p class="footer"><i class="fa fa-envelope-o" aria-hidden="true"></i>
-					wildthingyoga@mail.com</p>
+					Level 3, The Old Mill, Pescara,<br> Italy.</p>
+					<p class="footer"><i class="fa fa-phone" aria-hidden="true"></i>
+						087 66 55 443</p>
+					<p class="footer"><i class="fa fa-envelope-o" aria-hidden="true"></i>
+						wildthingyoga@mail.com</p>
 			</div>
-			<div class="col-sm-4">
-				<a href="index.html"><img class="logo footer" src="assets/images/resources/logo.png" alt="logo"></a>
+			<div class="col-sm-12 col-md-4">
+				<a href="index.html"><img class="logo footer" src="assets/logo.png" alt="logo"></a>
 			</div>
-			<div class="col-sm-4">
+			<div class="col-sm-12 col-md-4">
 				<h5 class="footer">Social Media</h5>
 				<p class="footer">Follow the Fun on Social Media!</p>
 				<ul class="social-btns">
@@ -82,10 +104,11 @@
 					<li><a href="https://www.pinterest.ie/"
 							target="_blank"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
 				</ul>
-				<form id="newsletter">
-					<label for="Newsletter">Subscribe to our news letter</label>
-					<input type="text" placeholder=" Email Address" class="newsletter">
-					<input type="submit" value="Subscribe!" class="button">
+				<form method="POST" id="newsletter">
+					<em>Recieve updates & discounts with our newsletter</em>
+					<br>
+					<input type="text-input" name="email" id="email" placeholder=" Email Address" class="newsletter">
+					<input type="submit" value="Subscribe!" class="btn btn-light button">
                 </form>
 			</div>
 		</div>
@@ -97,5 +120,6 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
 	</script>
+
 </body>
 </html>
