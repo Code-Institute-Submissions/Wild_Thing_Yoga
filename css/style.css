@@ -320,6 +320,7 @@ This code will style the Hero Image on the Schedule & Pricing Page*/
 .schedule-head {
     background-color: rgb(255, 255, 255, 0.7);
 }
+
 .schedule-p {
     text-align: center;
     color: white;
@@ -337,6 +338,14 @@ div.col-sm-12.col-md-3 {
 h3.schedule-head {
     margin: 0px 0px 0px 0px;
     text-align: center;
+}
+
+th {
+    font-size: 21px;
+}
+
+td {
+    font-size: 22px;
 }
 
 /*----------------------------------------------------------Contact Forms*/
