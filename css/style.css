@@ -43,6 +43,17 @@ h5 {
     color:#222222;
 }
 
+h6 {
+    text-align: center;
+    font-size: 25px;
+    font-family: "Dancing Script", sans-serif;
+    color:#222222;
+}
+
+.body-container {
+    padding-bottom: 30px;
+}
+
 .body-content {
     display: block;
     font-size: 20px;
@@ -248,10 +259,6 @@ This code will style the Hero Image on the Schedule & Pricing Page*/
 /*----------------------------------------------------------Offering*/
 /*The code below will style the content in the offering*/
 
-.offering-container {
-    padding-bottom: 30px;
-}
-
 .carousel-off {
     padding-bottom: 30px;
 }
@@ -296,14 +303,6 @@ This code will style the Hero Image on the Schedule & Pricing Page*/
     padding-bottom: 20px; 
 }
 
-
-#pricing-span {
-    background-color: #91AC98;
-    font-style: italic;
-    font-size: 15px;
-    color: white;
-}
-
 /*----------------------------------------------------------Schedule & Pricing*/
 .schedule-container {
     background-image: url(../assets/images/schedule/cottonbro.jpg);/*Image: Thanks to cottonbro at pexels.com*/
@@ -315,6 +314,13 @@ This code will style the Hero Image on the Schedule & Pricing Page*/
     margin-bottom: 30px;
     padding-left: 10px;
     padding-right: 5px;
+}
+
+#pricing-span {
+    background-color: #91AC98;
+    font-style: italic;
+    font-size: 15px;
+    color: white;
 }
 
 .schedule-head {
@@ -348,11 +354,11 @@ td {
     font-size: 22px;
 }
 
-/*----------------------------------------------------------Contact Forms*/
+/*----------------------------------------------------------Forms*/
 /*The code below will style the Contact Form the form will not submit to any data base as this is not required for the MS1
 this will be updated to function in the future*/
 
-.contact-form {
+.form {
     background-color:rgb(145, 172, 152, 0.5);
     padding-top: 20px;
     padding-bottom: 20px;
@@ -374,6 +380,32 @@ textarea#textarea1.form-control:hover {
 input.btn.btn-light.button:hover {
     background-color: #A5907C;
 }
+
+/*Booking Form Specific*/
+
+input#contact.form-control:hover {
+    border: solid black 1px;
+}
+
+.booking-form {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+#date {
+    color: #222222;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    padding: 2.5px 5px 2.5px 5px;
+}
+
+input#date:hover {
+    border: solid black 1px;
+    background-color:rgb(165, 144, 124, 0.5);
+}
+
 /*--------------------------------------------------------------------------------BODY CONTENT END*/
 
 /*----------------------------------------------------------Footer*/
