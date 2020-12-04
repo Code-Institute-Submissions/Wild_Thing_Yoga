@@ -158,8 +158,7 @@ a.dropdown-item:active {
 
 /*----------------------------------------------------------Call Out Container*/
 
-/*The Below is Taken & Modified from Matt Rudge Whiskey Drop Challenge Code Institute.
-This code will style the call out container*/
+/*The Below is Taken & Modified from Matt Rudge Whiskey Drop Challenge Code Institute*/
 
 .callout-container {
     background: url(../assets/images/home/heroimage.jpg) no-repeat center center fixed; /*Call out image : Thanks to Jared Rice at unsplash.com*/
@@ -257,7 +256,6 @@ This code will style the Hero Image on the Schedule & Pricing Page*/
 }
 
 /*----------------------------------------------------------Offering*/
-/*The code below will style the content in the offering*/
 
 .carousel-off {
     padding-bottom: 30px;
@@ -285,7 +283,7 @@ This code will style the Hero Image on the Schedule & Pricing Page*/
 }
 
 /*----------------------------------------------------------FAQs*/
-/*The code below will style the FAQs section*/
+
 
 .faqs {
     background-color: rgb(165, 144, 124, 0.5);
@@ -355,7 +353,7 @@ td {
 }
 
 /*----------------------------------------------------------Forms*/
-/*The code below will style the Contact Form the form will not submit to any data base as this is not required for the MS1
+/*The form will not submit to any data base as this is not required for the MS1
 this will be updated to function in the future*/
 
 .form {
@@ -406,6 +404,14 @@ input#date:hover {
     background-color:rgb(165, 144, 124, 0.5);
 }
 
+.booking-form.radio:active {
+    background-color: black!important;
+    color: black;
+}
+
+input#name.form-control {
+    display: inline;
+}
 /*--------------------------------------------------------------------------------BODY CONTENT END*/
 
 /*----------------------------------------------------------Footer*/

@@ -180,30 +180,30 @@
 							<div class="row">
 								<div class="col-sm-12 form">
 								<form method="POST" id="booking-form">
-									<div class="form-group">
-										<div class="booking-form">
-                                            <label for="date"><h6>What date would you like to book for?</h6></label><br>
-											<input type="date" id="date" name="date" value="2020-11-11" 
-                                             min="2020-01-01" max="2021-01-31" required></div><!--Code found on developer.mozilla.org/ and customized-->
-                                             <div class="booking-form"><h6>Which class would you like to book on that date?</h6>
-                                             <label for="yin">Yin</label>
-                                             <input id="yin" type="radio" name="yin" value="yin-class">
-                                             <label for="vinyasa">Vinyasa</label>
-                                             <input id="vinyasa" type="radio" name="vinyasa" value="vinyasa-class">
-                                             <label for="hatha">Hatha</label>
-                                             <input id="hatha" type="radio" name="hatha" value="hatha-class">
-                                             <label for="teen">Teen</label>
-                                             <input id="teen" type="radio" name="teen" value="teen-class">
-                                             <label for="kids">Kids</label>
-                                             <input id="kids" type="radio" name="kids" value="kids-class"></div>
+									<div class="form-group">    
 										<input type="text" class="form-control" id="name" placeholder="Your Name" required></div>
 										<div class="form-group">
                                         <input type="text" class="form-control" id="contact" placeholder="Contact Number" required></div>
 										<div class="form-group">
 										<input type="text" class="form-control" id="email_address" placeholder="Email Address" required></div>
 										<div class="form-group">
-										<textarea class="form-control" id="textarea1" placeholder="Comments" rows="1" required></textarea></div>
-										<div  class="booking-form">
+										<textarea class="form-control" id="textarea1" placeholder="Comments" rows="1"></textarea></div>
+                                        <div class="booking-form">
+                                            <label for="date"><h6>What date would you like to book for?</h6></label><br>
+											<input type="date" id="date" name="date" value="2020-11-11" 
+                                            min="2020-01-01" max="2021-01-31" required></div><!--Code found on developer.mozilla.org/ and customized-->
+                                            <div class="booking-form"><h6>Which class would you like to book on that date?</h6>
+                                            <label for="yin">Yin</label>
+                                            <input id="yin" type="radio" name="classes" value="yin" required>
+                                            <label for="vinyasa">Vinyasa</label>
+                                            <input id="vinyasa" type="radio" name="classes" value="vinyasa">
+                                            <label for="hatha">Hatha</label>
+                                            <input id="hatha" type="radio" name="classes" value="hatha">
+                                            <label for="teen">Teen</label>
+                                            <input id="teen" type="radio" name="classes" value="teen">
+                                            <label for="kids">Kids</label>
+                                            <input id="kids" type="radio" name="classes" value="kids"></div>
+                                            <div  class="booking-form">
 										<input type="submit" value="Book!" class="btn btn-light button"></div>
 								</form>
 								</div>
