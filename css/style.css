@@ -273,7 +273,6 @@ This code will style the Hero Image on the Schedule & Pricing Page*/
     padding-bottom: 20px; 
     background-color: rgb(145, 172, 152, 0.5);
     margin-top: 10px;
-    border-radius: 5px;
 }
 .review-images {
     width: 200px;
@@ -287,7 +286,6 @@ This code will style the Hero Image on the Schedule & Pricing Page*/
 
 .faqs {
     background-color: rgb(165, 144, 124, 0.5);
-    border-radius: 5px;
 }
 
 .faqs-questions {
@@ -302,6 +300,7 @@ This code will style the Hero Image on the Schedule & Pricing Page*/
 }
 
 /*----------------------------------------------------------Schedule & Pricing*/
+
 .schedule-container {
     background-image: url(../assets/images/schedule/cottonbro.jpg);/*Image: Thanks to cottonbro at pexels.com*/
     background-repeat: no-repeat; /*Code borrowed and customized from Brian O'Grady Love Running Challenge*/
@@ -312,6 +311,7 @@ This code will style the Hero Image on the Schedule & Pricing Page*/
     margin-bottom: 30px;
     padding-left: 10px;
     padding-right: 5px;
+    
 }
 
 #pricing-span {
@@ -360,7 +360,6 @@ this will be updated to function in the future*/
     background-color:rgb(145, 172, 152, 0.5);
     padding-top: 20px;
     padding-bottom: 20px;
-    border-radius: 5px;
 }
 
 input#name.form-control:hover {
