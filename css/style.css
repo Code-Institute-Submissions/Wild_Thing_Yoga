@@ -239,12 +239,24 @@ types so the effect and position is as consitent as possible over multiple devic
     }
 }
 
-/*----------------------------------------------------------Schedule Hero Image*/
+/*----------------------------------------------------------Schedule & Resources Hero Image*/
 /*The Below is Taken & Modified from Matt Rudge Whiskey Drop Challenge Code Institute.
 This code will style the Hero Image on the Schedule & Pricing Page*/
 
 .schedule-hero-img {
     background: url(../assets/images/schedule/sazonovasc.jpg) no-repeat center center fixed; /*Hero image : Thanks to Elly Sazonova at pexels.com*/
+    height: 90vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.resources-hero-img {
+    background: url(../assets/images/resources/consciousdesign.jpg) no-repeat center center fixed; /*Hero image : Thanks to conscious design at unsplash.com*/
     height: 90vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
