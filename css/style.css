@@ -364,6 +364,15 @@ td {
     font-size: 22px;
 }
 
+/*----------------------------------------------------------Free Resources*/
+
+a.resource-link {
+    color: Green;
+    font-style: italic;
+}
+
+
+
 /*----------------------------------------------------------Forms*/
 /*The form will not submit to any data base as this is not required for the MS1
 this will be updated to function in the future*/
@@ -436,11 +445,19 @@ footer {
     min-height: 120px;
 }
 
+.footer-head {
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+} 
+
 .footer {
     display: block;
     text-align: center;
     margin-top: 5px;
-    margin-bottom: 5px;    
+    margin-bottom: 5px; 
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);   
 }
 
 
@@ -450,6 +467,7 @@ p.footer i {
     padding: 10px;
     margin-right: 2px;  
     font-size: 15px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); 
     line-height: 10px;
     text-align: center;
     color: #fafafa;
@@ -468,6 +486,7 @@ img.logo.footer {
 /*The code below will style the social media buttons*/
 .social-btns {
     text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
     
 }
 .social-btns li {
@@ -499,6 +518,7 @@ ul.social-btns {
 /*The code below will generate a sign up form for a newsletter*/
 #newsletter {
     text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 .newsletter {
