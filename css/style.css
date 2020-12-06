@@ -367,9 +367,25 @@ td {
 /*----------------------------------------------------------Free Resources*/
 
 a.resource-link {
-    color: Green;
+    color: #91AC98;
     font-style: italic;
 }
+
+.iframe-resources{
+    position: relative;
+    width: 80%;
+    padding-bottom: 25%; 
+    height: 0;
+}
+.iframe-resources iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*The above code was taken and customized from "tips with punch" YouTube Tutorial*/
 
 
 
