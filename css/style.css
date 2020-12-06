@@ -256,7 +256,7 @@ This code will style the Hero Image on the Schedule & Pricing Page*/
 }
 
 .resources-hero-img {
-    background: url(../assets/images/resources/consciousdesign.jpg) no-repeat center center fixed; /*Hero image : Thanks to conscious design at unsplash.com*/
+    background: url(../assets/images/resources/aaronburden.jpg) no-repeat bottom center fixed; /*Hero image : Thanks to Aaron Burden unsplash.com*/
     height: 90vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
