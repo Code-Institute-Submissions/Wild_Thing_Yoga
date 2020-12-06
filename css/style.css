@@ -13,8 +13,8 @@ color: #222222;
 }
 
 .logo {
-    width: 150px;
-    height: 150px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
 }
 
@@ -423,9 +423,6 @@ a.resource-link {
     overflow-y: scroll;
     }
 
-a.btn.button-green:active {
-    border: 0px;
-}
 
 /*----------------------------------------------------------Forms*/
 /*The form will not submit to any data base as this is not required for the MS1
@@ -491,8 +488,9 @@ this code will style the footer*/
 footer {
     background-color: #91AC98;
     color: white; 
+    font-size: 10px;
     padding: 8px 16px 8px 16px;
-    min-height: 120px;
+    min-height: 100px;
 }
 
 .footer-head {
@@ -528,9 +526,9 @@ p.footer i {
 img.logo.footer {
     margin-right: auto;
     margin-left: auto;
-    margin-top: 10px;
-    width: 150px;
-    height: 150px;
+    margin-top: 15px;
+    width: 80px;
+    height: 80px;
 }
 
 /*The code below will style the social media buttons*/
@@ -566,7 +564,7 @@ ul.social-btns {
 }
 
 /*The code below will generate a sign up form for a newsletter*/
-#newsletter {
+/*#newsletter {
     text-align: center;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
@@ -580,6 +578,6 @@ ul.social-btns {
 
 input#email.newsletter:hover {
     border: solid black 1px;
-}
+}*/
 
 /*End*/
