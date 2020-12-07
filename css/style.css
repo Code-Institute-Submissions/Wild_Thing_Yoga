@@ -163,7 +163,7 @@ how to do this was learnt via Web Dev Tutorials Channel on Youtube, see credits 
 
 .nav-link {
     margin: 4px;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 @media only screen and (min-width: 1200px) { /*This media query will make the Navbar text bigger on medium to large screens*/
@@ -188,7 +188,7 @@ how to do this was learnt via Web Dev Tutorials Channel on Youtube, see credits 
     }
 }
 
-a.nav-link.hvr-underline-from-center::before{ /* Hover animation was found at https://ianlunn.github.io/Hover/ */
+a.nav-link.hvr-underline-from-center::before{
     background-color: black;
     height: 1px;
 }
@@ -208,14 +208,11 @@ a.dropdown-item:hover {
 a.dropdown-item:active {
     background-color: #848387;
 }
-/*--------------------------------------------------------------------------------BODY CONTENT BELOW*/
-
 /*----------------------------------------------------------Call Out Container*/
-
 /*The Below is Taken & Modified from Matt Rudge Whiskey Drop Challenge Code Institute*/
 
 .callout-container {
-    background: url(../assets/images/home/calloutimage.jpg) no-repeat center center fixed; /*Call out image : Designers property*/
+    background: url(../assets/images/home/callOutImage.jpg) no-repeat center center fixed; /*Call out image : Designers property*/
     height: 90vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -278,34 +275,6 @@ types so the effect and position is as consitent as possible over multiple devic
     }
 }
 
-/*----------------------------------------------------------Schedule & Resources Hero Image*/
-/*The Below is Taken & Modified from Matt Rudge Whiskey Drop Challenge Code Institute.
-This code will style the Hero Image on the Schedule & Pricing Page*/
-
-.schedule-hero-img {
-    background: url(../assets/images/schedule/sazonovasc.jpg) no-repeat center center fixed; /*Hero image : Thanks to Elly Sazonova at pexels.com*/
-    height: 90vh;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-
-.resources-hero-img {
-    background: url(../assets/images/resources/aaronburden.jpg) no-repeat bottom center fixed; /*Hero image : Thanks to Aaron Burden unsplash.com*/
-    height: 90vh;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-
 /*----------------------------------------------------------Offering*/
 
 .carousel-off {
@@ -314,7 +283,7 @@ This code will style the Hero Image on the Schedule & Pricing Page*/
 }
 
 /*----------------------------------------------------------Testimonials*/
-/*The code below will style the reviews in the Testimonials section*/
+
 .reviews {
     text-align: center;
     height: 200px;
@@ -337,7 +306,6 @@ This code will style the Hero Image on the Schedule & Pricing Page*/
 
 /*----------------------------------------------------------FAQs*/
 
-
 .faqs {
     background-color: #B2A69D;
 }
@@ -355,9 +323,21 @@ This code will style the Hero Image on the Schedule & Pricing Page*/
 }
 
 /*----------------------------------------------------------Schedule & Pricing*/
+/*The Below hero img code is Taken & Modified from Matt Rudge Whiskey Drop Challenge Code Institute*/
 
+.schedule-hero-img {
+    background: url(../assets/images/schedule/sazonovaSchedule.jpg) no-repeat center center fixed;
+    height: 90vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
 .schedule-container {
-    background-image: url(../assets/images/schedule/cottonbro.jpg);/*Image: Thanks to cottonbro at pexels.com*/
+    background-image: url(../assets/images/schedule/cottonBro.jpg);
     background-repeat: no-repeat; /*Code borrowed and customized from Brian O'Grady Love Running Challenge*/
     background-size: cover;
     background-position: center;
@@ -408,6 +388,17 @@ td {
 }
 
 /*----------------------------------------------------------Free Resources*/
+.resources-hero-img {
+    background: url(../assets/images/resources/aaronBurden.jpg) no-repeat bottom center fixed;
+    height: 90vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
 
 iframe {
     border-width: 0px;
@@ -417,6 +408,7 @@ a.resource-link {
     font-style: italic;
 }
 
+/*The 2 below iframe code rules were taken and customized from "tips with punch" YouTube Tutorial*/
 .iframe-resources{
     position: relative;
     width: 80%;
@@ -430,9 +422,6 @@ a.resource-link {
     width: 100%;
     height: 100%;
 }
-
-/*The above code was taken and customized from "tips with punch" YouTube Tutorial*/
-
 
 .article {
     text-align: center;
@@ -501,11 +490,9 @@ input#date:hover {
 input#name.form-control {
     display: inline;
 }
-/*--------------------------------------------------------------------------------BODY CONTENT END*/
 
 /*----------------------------------------------------------Footer*/
-/*Some of the Below is Taken & Modified from Matt Rudge UCD Resume Challenge Code Institute,
-this code will style the footer*/
+/*The Below code relating to social media buttons is taken & modified from Matt Rudge UCD Resume Challenge Code Institute*/
 
 footer {
     background-color: #7091A9;
@@ -532,7 +519,6 @@ footer {
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);   
 }
 
-
 p.footer i {
     width: 20px; 
     height: 20px;
@@ -545,8 +531,6 @@ p.footer i {
     color: #fafafa;
 }
 
-/*The code below will style the logo in the footer*/
-
 img.logo.footer {
     margin-right: auto;
     margin-left: auto;
@@ -555,7 +539,6 @@ img.logo.footer {
     height: 100px;
 }
 
-/*The code below will style the social media buttons*/
 .social-btns {
     text-align: center;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
@@ -586,5 +569,3 @@ ul.social-btns {
     color: black;
 }
 
-
-/*End*/
