@@ -113,8 +113,8 @@ how to do this was learnt via Web Dev Tutorials Channel on Youtube, see credits 
 .fixed-top {
     position: fixed;
 }
-.nav-menu .navbar-dark {
-    background-color: #91AC98!important;
+.nav-menu .navbar-light {
+    background-color: white!important;
 }
 .nav-menu .navbar-toggler {
     padding-right: 25px;
@@ -145,7 +145,7 @@ how to do this was learnt via Web Dev Tutorials Channel on Youtube, see credits 
 
 .navbar-brand {
     font-size: 30px;
-    color: #222222!important;
+    color: black!important;
     font-family: 'Dancing Script', sans-serif;
 }
 
@@ -156,20 +156,24 @@ how to do this was learnt via Web Dev Tutorials Channel on Youtube, see credits 
 }
 
 a.nav-link.hvr-underline-from-center::before{ /* Hover animation was found at https://ianlunn.github.io/Hover/ */
-    background-color: white;
+    background-color: black;
     height: 1px;
 }
 
 .dropdown-menu {
-    background-color:#91AC98;  
+    background-color: white;  
 }
 
 a.dropdown-item {
-    color: white;
+    color: black;
 }
 
+a.dropdown-item:hover {
+    background-color: black;
+    color: white;
+}
 a.dropdown-item:active {
-    background-color: #A5907C;
+    background-color: #79a665;
 }
 /*--------------------------------------------------------------------------------BODY CONTENT BELOW*/
 
@@ -502,9 +506,11 @@ footer {
 
 .footer {
     display: block;
-    text-align: center;
-    margin-top: 5px;
+    text-align: center; 
+    height: 30px;
+    padding: 10px;
     margin-bottom: 5px; 
+    font-size: 10px;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);   
 }
 
@@ -519,23 +525,22 @@ p.footer i {
     line-height: 10px;
     text-align: center;
     color: #fafafa;
-    
 }
+
 /*The code below will style the logo in the footer*/
 
 img.logo.footer {
     margin-right: auto;
     margin-left: auto;
     margin-top: 15px;
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
 }
 
 /*The code below will style the social media buttons*/
 .social-btns {
     text-align: center;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-    
 }
 .social-btns li {
     display: inline;
