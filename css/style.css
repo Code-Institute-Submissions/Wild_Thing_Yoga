@@ -10,6 +10,7 @@
 body {
 font-family: 'Raleway', sans-serif;
 color: #222222;
+font-size: 15px;
 }
 
 .logo {
@@ -22,6 +23,12 @@ ul {
     list-style: none;
 }
 
+h1 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 100px;
+    color: white;
+}
 h2 {
     text-align: center;
     font-size: 50px;
@@ -109,7 +116,7 @@ h6 {
     color: white;
 }
 
-.booking-btn {
+.booknow-btn {
     font-family: 'Dancing Script', sans-serif;
     color: black;
     background-color: white; 
@@ -119,8 +126,9 @@ h6 {
     padding: 10px 15px 10px 15px;
 }
 
-a.btn.booking-btn:hover {
-    background-color:#B2A69D ;
+a.btn.booknow-btn:hover {
+    background-color:#B2A69D;
+    color: white;
 }
 
 /*----------------------------------------------------------Colours*/
@@ -171,7 +179,6 @@ how to do this was learnt via Web Dev Tutorials Channel on Youtube, see credits 
 
 .navbar-brand {
     font-size: 25px;
-    color: black!important;
     font-family: 'Dancing Script', sans-serif;
 }
 
@@ -338,6 +345,7 @@ This code will style the Hero Image on the Schedule & Pricing Page*/
 .faqs-questions {
     background-color: white;
     margin-top: 5px;
+    border-radius: 30px;
     border-bottom: #222222 solid 1px;
 }
 .faqs-p {
@@ -405,7 +413,7 @@ iframe {
     border-width: 0px;
 }
 a.resource-link {
-    color: #91AC98;
+    color: rgb(82, 108, 67, 0.7);
     font-style: italic;
 }
 
@@ -486,12 +494,8 @@ input#contact.form-control:hover {
 
 input#date:hover {
     border: solid black 1px;
-    background-color:rgb(165, 144, 124, 0.5);
-}
-
-.booking-form.radio:active {
-    background-color: black!important;
-    color: black;
+    background-color: #81a969;
+    color: white;
 }
 
 input#name.form-control {
