@@ -1,5 +1,5 @@
 <h1 align=center>Wild Thing Yoga</h1>
-<h2 align="center"><img src="assets/images/resources/logo.png"></h2>
+<h2 align="center"><img src="assets/images/readMe/readMeLogo.PNG"></h2>
 
 <p align=center>Code Institute, Diploma in Full Stack Software Development Milestone Project 1, 
 December 2020.</p>
@@ -106,18 +106,21 @@ TBA ******
 
 #### Color Scheme
 
-<img align="center" src="assets/images/read_me_images/swatch.png">
+<img align="center" src="assets/images/readMe/swatch.PNG">
 
-The above color swatch shows a guide line for the color scheme of the site.
+The above color swatch shows a guide line for the color scheme of the site, 
+black and white will also be incorporated.
 Colors are brand colors which have been adopted for the following reasons:<br>
 <br>
 
 Color | Consumer Association
 ------|---------------------
 Black | Elegance, sophistication
-Beige | Neutral, Calming, Relaxing, Dependable
+Beige | Neutral, calming, relaxing, dependable
 Green | Growth, recurrance, safety & balance
 White | Goodness, purity, safety & new beginnings
+Blue  | Serenity, reliable
+Grey  | Neutral, balance
 
 All colours tie together to make the appropriate emotional responce
 and associations the brands identifies with their business, yoga 
@@ -142,15 +145,26 @@ this logo will feature throughout the website. Images will be supplied
 by myself or from open sources,  please see [<em>credits</em>](#credits) for a list of sources and photographers.
 
 #### Design Limitations
-A 'funkier' more modern layout was originally designed but outside the scope of 
+A more modern layout was originally designed but outside the scope of 
 my current capabilities. A fourth and fifth page for a community forum and merchandise/equipment shop
-will be implimented in the future but was not possible due to time constraints.
+will be implimented in the future but was not possible due to time constraints. The forms
+are also limited in function, as that is outside the scope of the project and my capabilities at this time.
 
 ## Features
  - Responsive on all devices
  - Supported by Chrome, Safari and Firefox browsers
- - Interactive Elements
+ - Interactive Elements : Navbar, Forms, Buttons, Video's.
  - Adapted for users with special accessibility requirements where possible
+ - The Navbar will be sticky to allow ease of naviagtion for the user at all times.
+ - The Nabar on mobile devices and smaller screens will display in a drop down.
+ - The business logo will act as a link back to the home page.
+ - The home page hero image will have a link to the booking form, to speed up navigation for users. 
+ - Forms will have manditory fields 
+ - There will be a seperate booking and contact form as class date and class type need to
+ be mandatory fields to ensure a clean booking experience and to reduce administration on the
+  business side.
+ - The footer will have links to the businesses social media.
+ - All external links will open in a new browser window.
 
  ## Technologies
 
@@ -174,8 +188,9 @@ will be implimented in the future but was not possible due to time constraints.
   extraction of usedful information for my project drafts and plans.
   11. [Microsoft Photo Editor](https://support.microsoft.com/en-us/windows/edit-photos-and-videos-in-windows-10-a3a6e711-1b70-250a-93fa-ef99048a2c86) Used for editing the resolution of photos in the carosel 
   to tone in with the colour scheme.
+  12. [Free Formatter](https://www.freeformatter.com/html-formatter.html) Was used in place of extensions due to an error on GitPod caused by a recent update.
+  13. [Convertico](https://convertico.com/) Used for the Favicon image.
 
 ## Testing
 ## Deployment
 ## Credits
-## Conclusion
