@@ -131,6 +131,18 @@ h6 {
     color: white;
 }
 
+@media only screen and (max-width: 850px) {
+    .booknow-btn {
+    font-family: 'Dancing Script', sans-serif;
+    color: black;
+    background-color: white; 
+    border-radius: 30px;
+    font-size: 15px;
+    border: none;
+    padding: 5px 7.5px 5px 7.5px;
+}
+}
+
 /*----------------------------------------------------------Colours*/
 
 .blue {
@@ -213,7 +225,7 @@ a.dropdown-item:active {
 
 .home-hero-img {
     background: url(../assets/images/home/callOutImage.jpg) no-repeat center center fixed; /*Call out image : Designers property*/
-    height: 80vh;
+    height: 90vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -235,9 +247,18 @@ a.dropdown-item:active {
     margin-top: 30%;
 }
 
-@media only screen and (min-width: 1200px) { /*This media query will make the Call Out text bigger on medium to large screens*/
+@media only screen and (min-width: 1200px) { /*This media query will make the Jumbotron text bigger on larger screens*/
     .callout-header {
     font-size: 80px;
+    }
+}
+
+@media only screen and (max-width: 850px) { /*This media query will make the Jumbotron text bigger on larger screens*/
+    .callout-header {
+    font-size: 25px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 50%;
     }
 }
 
