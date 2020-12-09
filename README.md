@@ -180,5 +180,40 @@ are also limited in function, as that is outside the scope of the project and my
   13. [Convertico](https://convertico.com/) Used for the Favicon image.
 
 ## Testing
+
 ## Deployment
+
+#### Deployment via GitHub Pages
+
+1. Select the <b>Repository</b> you wish to deploy.
+2. Under the <em>"Repo"</em> name on the top left of the screen
+there is a menu,<br><img src="assets/images/readMe/depOne.PNG" height="30" width="200"> select the settings tab on this menu.
+3. Scroll down to the <b>GitHub Pages</b> section.
+4. Under <b>Source</b> use the <b>None or Branch</b> drop down menu to select the 
+publishing source you wish to use. <b>Main</b> is recommened. <br><img src="assets/images/readMe/depTwo.PNG" height="55" width="220"><br>
+5. Select <b>Save</b> and refresh the page. 
+6. Your published address will appear in a green highlighted container above <b>Source</b>.
+7. Click the link to test it works.
+
+##### Forking a Repository to your GitHub Account
+
+Forking the <em>Repo</em> will allow you to duplicate the repository in your own GitHub
+account from here you can update and make changes without affecting the original.
+
+1. Select the <b>Repository</b> you wish to fork.
+2. On the top right of the screen uder the Navigation click the Fork symbol<br> <img src="assets/images/readMe/fork.png" height="30">.
+3. The <em>Repo</em> should now appear in your GitHub account repository directory.
+4. Select the green <b>Gitpod</b> button in the <em>Repo</em> to open a workspace and make changes.
+
+#### Making a Clone in GitPod
+1. Select the <em>Repo</em> you wish to clone in GitHub.
+2. Click on the Code dropdown button. <br> <img src="assets/images/readMe/depThree.PNG" height="35" width="250">
+3. Copy the link to your clipboard.
+4. In Gitpod select & open your desired directory.
+5. In the console type <em>"git clone"</em> and paste the copied link.
+6. Hit enter to create the clone.<br>
+ - To view what the code will look like in a browser from here type <em>" python3 -m http.server"</em>
+into the console and hit enter.
+- A pop up will appear stating "A service is available on Port 8000" select <b>Open Browser</b>
+
 ## Credits
