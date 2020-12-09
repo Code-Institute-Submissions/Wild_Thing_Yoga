@@ -90,7 +90,7 @@ h6 {
 
 /*----------------------------------------------------------Buttons*/
 
-.button {
+.form-btn {
     color: #222222;
     border-radius: 5px;
     border: none;
@@ -98,12 +98,12 @@ h6 {
     padding: 2.5px 5px 2.5px 5px;
 }
 
-.button:hover {
+.form-btn:hover {
     background-color: #81a969;
     color: white;
 }
 
-.button-green {
+.article-btn {
     background-color: rgb(82, 108, 62, 0.7);
     border-radius: 5px;
     border: none;
@@ -111,7 +111,7 @@ h6 {
     padding: 2.5px 5px 2.5px 5px;
 }
 
-.button-green:hover {
+.article-btn:hover {
     background-color: #B2A69D;
     color: white;
 }
@@ -126,7 +126,7 @@ h6 {
     padding: 10px 15px 10px 15px;
 }
 
-a.btn.booknow-btn:hover {
+.booknow-btn:hover {
     background-color:#B2A69D;
     color: white;
 }
@@ -284,12 +284,12 @@ types so the effect and position is as consitent as possible over multiple devic
 
 /*----------------------------------------------------------Testimonials*/
 
-.reviews {
+.testimonial {
     text-align: center;
     height: 200px;
 }
 
-.reviews-p {
+.testimonial-p {
     text-align: justify;
     color: white;
     font-size: 15px; 
@@ -297,7 +297,7 @@ types so the effect and position is as consitent as possible over multiple devic
     background-color: #7091A9;
     margin-top: 10px;
 }
-.review-images {
+.testimonial-imgs {
     width: 200px;
     height: 200px;
     margin: auto;
@@ -323,7 +323,7 @@ types so the effect and position is as consitent as possible over multiple devic
 }
 
 /*----------------------------------------------------------Schedule & Pricing*/
-/*The Below hero img code is Taken & Modified from Matt Rudge Whiskey Drop Challenge Code Institute*/
+/*The Below hero img code is taken & modified from Matt Rudge Whiskey Drop Challenge Code Institute*/
 
 .schedule-hero-img {
     background: url(../assets/images/schedule/sazonovaSchedule.jpg) no-repeat center center fixed;
@@ -336,6 +336,22 @@ types so the effect and position is as consitent as possible over multiple devic
     justify-content: center;
     position: relative;
 }
+
+.pricing-lg-txt {
+    font-size: 22px;
+}
+
+.pricing-sm-txt {
+    font-size: 20px;
+}
+
+#pricing-span {
+    background-color: #81a969;
+    font-style: italic;
+    font-size: 15px;
+    color: white;
+}
+
 .schedule-container {
     background-image: url(../assets/images/schedule/cottonBro.jpg);
     background-repeat: no-repeat; /*Code borrowed and customized from Brian O'Grady Love Running Challenge*/
@@ -346,18 +362,18 @@ types so the effect and position is as consitent as possible over multiple devic
     margin-bottom: 30px;
     padding-left: 10px;
     padding-right: 5px;
-    
-}
-
-#pricing-span {
-    background-color: #81a969;
-    font-style: italic;
-    font-size: 15px;
-    color: white;
 }
 
 .schedule-head {
+    margin: 0px 0px 0px 0px;
+    text-align: center;
     background-color: rgb(178, 166, 157, 0.9);
+}
+
+.schedule-col {
+    margin: 0px;
+    padding: 0px;
+    background-color:  rgba(34, 34, 34, 0.5);
 }
 
 .schedule-p {
@@ -366,25 +382,6 @@ types so the effect and position is as consitent as possible over multiple devic
     font-size: 20px;
     margin-top: 15px;
     margin-bottom: 2.5px;
-}
-
-div.col-sm-12.col-md-3 {
-    margin: 0px;
-    padding: 0px;
-    background-color:  rgba(34, 34, 34, 0.5);
-}
-
-h3.schedule-head {
-    margin: 0px 0px 0px 0px;
-    text-align: center;
-}
-
-th {
-    font-size: 21px;
-}
-
-td {
-    font-size: 22px;
 }
 
 /*----------------------------------------------------------Free Resources*/
@@ -449,23 +446,11 @@ this will be updated to function in the future*/
     padding-bottom: 20px;
 }
 
-input#name.form-control:hover {
-    border: solid black 1px;
-}
-
-input#email_address.form-control:hover {
-    border: solid black 1px;
-}
-
-textarea#textarea1.form-control:hover {
-    border: solid black 1px;
+.form-control:hover {
+    border: solid black 1.5px;
 }
 
 /*Booking Form Specific*/
-
-input#contact.form-control:hover {
-    border: solid black 1px;
-}
 
 .booking-form {
     text-align: center;
@@ -473,7 +458,7 @@ input#contact.form-control:hover {
     font-size: 15px;
 }
 
-#date {
+.date {
     color: #222222;
     border-radius: 5px;
     border: none;
@@ -481,14 +466,10 @@ input#contact.form-control:hover {
     padding: 2.5px 5px 2.5px 5px;
 }
 
-input#date:hover {
+.date:hover {
     border: solid black 1px;
     background-color: #81a969;
     color: white;
-}
-
-input#name.form-control {
-    display: inline;
 }
 
 /*----------------------------------------------------------Footer*/
