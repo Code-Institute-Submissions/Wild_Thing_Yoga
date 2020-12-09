@@ -209,7 +209,7 @@ account from here you can update and make changes without affecting the original
 1. Select the <em>Repo</em> you wish to clone in GitHub.
 2. Click on the Code dropdown button. <br> <img src="assets/images/readMe/depThree.PNG" height="35" width="250">
 3. Copy the link to your clipboard.
-4. In Gitpod select & open your desired directory.
+4. Open Git Bash.
 5. In the console type <em>"git clone"</em> and paste the copied link.
 6. Hit enter to create the clone.<br>
  - To view what the code will look like in a browser from here type <em>" python3 -m http.server"</em>
