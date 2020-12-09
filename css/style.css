@@ -116,21 +116,6 @@ h6 {
     color: white;
 }
 
-.booknow-btn {
-    font-family: 'Dancing Script', sans-serif;
-    color: black;
-    background-color: white; 
-    border-radius: 30px;
-    font-size: 30px;
-    border: none;
-    padding: 10px 15px 10px 15px;
-}
-
-.booknow-btn:hover {
-    background-color:#B2A69D;
-    color: white;
-}
-
 /*----------------------------------------------------------Colours*/
 
 .blue {
