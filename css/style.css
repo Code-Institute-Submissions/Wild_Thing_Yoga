@@ -116,6 +116,21 @@ h6 {
     color: white;
 }
 
+.booknow-btn {
+    font-family: 'Dancing Script', sans-serif;
+    color: black;
+    background-color: white; 
+    border-radius: 30px;
+    font-size: 30px;
+    border: none;
+    padding: 10px 15px 10px 15px;
+}
+
+.booknow-btn:hover {
+    background-color:#B2A69D;
+    color: white;
+}
+
 /*----------------------------------------------------------Colours*/
 
 .blue {
@@ -198,14 +213,32 @@ a.dropdown-item:active {
 
 .home-hero-img {
     background: url(../assets/images/home/callOutImage.jpg) no-repeat center center fixed; /*Call out image : Designers property*/
-    height: 90vh;
+    height: 80vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover; 
+    background-size: cover;
+    display: flex;  
     align-items: center;
     justify-content: center;
     position: relative;    
+}
+
+.jumbotron {
+    background-color: transparent;
+    margin-bottom: 30%;
+}
+.callout-header {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    margin-top: 30%;
+}
+
+@media only screen and (min-width: 1200px) { /*This media query will make the Call Out text bigger on medium to large screens*/
+    .callout-header {
+    font-size: 80px;
+    }
 }
 
 /*----------------------------------------------------------Offering*/
@@ -260,11 +293,12 @@ a.dropdown-item:active {
 
 .schedule-hero-img {
     background: url(../assets/images/schedule/sazonovaSchedule.jpg) no-repeat center center fixed;
-    height: 90vh;
+    height: 80vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    display: flex; 
     align-items: center;
     justify-content: center;
     position: relative;
@@ -320,11 +354,12 @@ a.dropdown-item:active {
 /*----------------------------------------------------------Free Resources*/
 .resources-hero-img {
     background: url(../assets/images/resources/aaronBurden.jpg) no-repeat bottom center fixed;
-    height: 90vh;
+    height: 80vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    display: flex; 
     align-items: center;
     justify-content: center;
     position: relative;
