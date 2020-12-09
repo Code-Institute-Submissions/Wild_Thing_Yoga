@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<head><title>WildThingYogaReadMe</title></head>
+
 <h1>Wild Thing Yoga<br><img
 src="assets/images/readMe/readMeLogo.PNG" height="100" width="100" alt="logo"></h1>
 
@@ -141,7 +141,7 @@ by myself or from open sources,  please see [<em>credits</em>](#credits) for a l
 #### Design Limitations
 A fourth and fifth page for a members log in and merchandise/equipment shop
 will be implimented in the future but was not possible due to time constraints. The forms
-are not functioning for the business at present but send information to a Code Institute 'File Dump' facility, 
+are not functioning for the business at present and do not have <method="POST"> or <action=""> included as there is no where to "post" to yet. 
 this is due to the mechanisms of that feature being outside the scope of the project and my knowledge of JavaScript and capabilities at this time.
 
 #### Design Differences
@@ -255,6 +255,6 @@ Thank you to the following for sharing their content with our free resouces page
 Special thanks to :
 1. The [Stack Over Flow](https://stackoverflow.com/questions/11948245/markdown-to-create-pages-and-table-of-contents) community for assistance with additional learning in semantics and fixing errors, particularly with the table of contents in my ReadMe.md.
 2. The [Web Dev Tutorials](https://www.youtube.com/watch?v=LbYKqXBy2hI) for assistance with targeting and customizing a Bootstrap NavBar.
-3. the tutors at Code Institute for their guidence and support.
-4. My mentor Rohit Sharma for his guidance and advice.
+3. The tutors at Code Institute for their guidence and support.
+4. My mentor Rohit Sharma for his guidance and advice through out.
 5. My peers on the slack community for assistance with testing and guidance throughout the project.
