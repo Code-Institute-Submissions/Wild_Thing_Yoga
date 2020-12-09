@@ -47,13 +47,14 @@ December 2020.</p>
 ## Strategic Purpose
 This website is created to be the official marketing tool for my business "Wild Thing Yoga".
 It should be a asset to the business to increase growth and improve rates of student retention 
-while also being a of value to the students, improving their customer experience.
+while also being a of value to the students and improving their customer experience.
 
 The site will be a place for students and potential students to learn about our offering, 
 book classes,contact us and avil of free resources. 
 
-Features are to entice new students to join, add value for existing students while also cutting down 
-on correspondance for the business regarding frequently asked questions. 
+Features are to entice new students to join classes, add value for existing students while also cutting down 
+on correspondance for the business regarding frequently asked questions and errors caused by typo's
+or lack of information. 
 
 Content should be clear, informative and adapted for screen readers so it is accessible for all.
 The site is to be responsive on all devices, while being easy and enjoyable to navigate through. 
@@ -66,25 +67,16 @@ ___
 ## User Experience Design
 
 ### User Stories
-#### First Time Visitor Goals
+#### First & Returning Visitor Goals
 
 > - Easily understands the main purpose and navigation pathways of the site
 > - Information is clearly presented and easily absorbed with minimal effort
 > - Features load quickly, are adapted to my device, my needs and supported by my browser
 > - I can learn more about the offering and their interaction with others via social
- media or through testimonials to determine whether they are trustworthy and of value to me
-
-#### Returning Visitor Goals
+media or through testimonials to determine whether they are trustworthy and of value to me
 > - Easily learn of upcoming classes and book those classes
-> - Access contact information
+> - Access contact information/contact the organization
 > - Avail of free resources
-
-#### Frequent Visitor Goals
-> - Check the class schedule and book classes
-> - Check for new free resources
-> - Learn of changes to their offering, discounts and events
-
-
 
 ### Design
 #### Structure
