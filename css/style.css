@@ -253,7 +253,7 @@ a.dropdown-item:active {
     }
 }
 
-@media only screen and (max-width: 850px) { /*This media query will make the Jumbotron text bigger on larger screens*/
+@media only screen and (max-width: 768px) { /*This media query will make the Jumbotron text bigger on smaller screens*/
     .callout-header {
     font-size: 25px;
     color: white;
