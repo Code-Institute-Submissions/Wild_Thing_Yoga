@@ -1,7 +1,11 @@
-<h1 align=center>Wild Thing Yoga</h1>
-<h2 align="center"><img src="assets/images/readMe/readMeLogo.PNG"></h2>
+<!DOCTYPE html>
+<html lang="en-US">
+<head><title>WildThingYogaReadMe</title></head>
+<h1>Wild Thing Yoga<br><img
+src="assets/images/readMe/readMeLogo.PNG" height="100" width="100" alt="logo"></h1>
 
-<p align=center>Code Institute, Diploma in Full Stack Software Development Milestone Project 1, 
+
+<p>Code Institute, Diploma in Full Stack Software Development Milestone Project 1, 
 December 2020.</p>
 
 # Table of Contents 
@@ -18,6 +22,7 @@ December 2020.</p>
         * [Typography](#typography)
         * [Imagery](#imagery)
         * [Design Limitations](#design-limitations)
+        * [Design Differences](#design-differences)
 
 3. [Features](#features)
 4. [Technologies](#technologies)
@@ -56,8 +61,9 @@ Content should be clear, informative and adapted for screen readers so it is acc
 The site is to be responsive on all devices, while being easy and enjoyable to navigate through. 
 Creating a positive user experience for customers that they will return to again and again.
 
-### Design Simulation
-TBA ****
+
+<img src="assets/images/readMe/designSimulation.PNG" alt="Am I Responsive Design Simulation">
+
 ___
 
 ## User Experience Design
@@ -90,11 +96,11 @@ The free resources page will have topical articals and online tutorials, which w
 reguarly.
 
 #### Wireframes
-TBA ******
+[Wire Frame Mock Up](assets/wireFrames.pdf)
 
 #### Color Scheme
 
-<img align="center" src="assets/images/readMe/swatch.PNG">
+<img src="assets/images/readMe/swatch.PNG" alt="color-swatch">
 
 The above color swatch shows a guide line for the color scheme of the site, 
 black and white will also be incorporated.
@@ -133,10 +139,14 @@ this logo will feature throughout the website. Images will be supplied
 by myself or from open sources,  please see [<em>credits</em>](#credits) for a list of sources and photographers.
 
 #### Design Limitations
-A more modern layout was originally designed but outside the scope of 
-my current capabilities. A fourth and fifth page for a community forum and merchandise/equipment shop
+A fourth and fifth page for a members log in and merchandise/equipment shop
 will be implimented in the future but was not possible due to time constraints. The forms
-are also limited in function, as that is outside the scope of the project and my capabilities at this time.
+are not functioning for the business at present but send information to a Code Institute 'File Dump' facility, 
+this is due to the mechanisms of that feature being outside the scope of the project and my knowledge of JavaScript and capabilities at this time.
+
+#### Design Differences
+An additional table was added to the Pricing & Schedule page after the wireframes were created.
+The footer in the wireframes is a little different from execution but the concept a disired function is ultimately the same.
 
 ## Features
  - Responsive on all devices
@@ -187,27 +197,27 @@ are also limited in function, as that is outside the scope of the project and my
 
 1. Select the <b>Repository</b> you wish to deploy.
 2. Under the <em>"Repo"</em> name on the top left of the screen
-there is a menu,<br><img src="assets/images/readMe/depOne.PNG" height="30" width="200"> select the settings tab on this menu.
+there is a menu,<br><img src="assets/images/readMe/depOne.PNG" height="30" width="200" alt="menu-image"> select the settings tab on this menu.
 3. Scroll down to the <b>GitHub Pages</b> section.
 4. Under <b>Source</b> use the <b>None or Branch</b> drop down menu to select the 
-publishing source you wish to use. <b>Main</b> is recommened. <br><img src="assets/images/readMe/depTwo.PNG" height="55" width="220"><br>
+publishing source you wish to use. <b>Main</b> is recommened. <br><img src="assets/images/readMe/depTwo.PNG" height="55" width="220" alt="source-image"><br>
 5. Select <b>Save</b> and refresh the page. 
 6. Your published address will appear in a green highlighted container above <b>Source</b>.
 7. Click the link to test it works.
 
-##### Forking a Repository to your GitHub Account
+#### Forking a Repository to your GitHub Account
 
 Forking the <em>Repo</em> will allow you to duplicate the repository in your own GitHub
 account from here you can update and make changes without affecting the original.
 
 1. Select the <b>Repository</b> you wish to fork.
-2. On the top right of the screen uder the Navigation click the Fork symbol<br> <img src="assets/images/readMe/fork.png" height="30">.
+2. On the top right of the screen uder the Navigation click the Fork symbol<br> <img src="assets/images/readMe/fork.png" height="30" alt="fork-image">.
 3. The <em>Repo</em> should now appear in your GitHub account repository directory.
 4. Select the green <b>Gitpod</b> button in the <em>Repo</em> to open a workspace and make changes.
 
 #### Making a Clone in GitPod
 1. Select the <em>Repo</em> you wish to clone in GitHub.
-2. Click on the Code dropdown button. <br> <img src="assets/images/readMe/depThree.PNG" height="35" width="250">
+2. Click on the Code dropdown button. <br> <img src="assets/images/readMe/depThree.PNG" height="35" width="250" alt="code-button-image">
 3. Copy the link to your clipboard.
 4. Open Git Bash.
 5. In the console type <em>"git clone"</em> and paste the copied link.
@@ -217,3 +227,34 @@ into the console and hit enter.
 - A pop up will appear stating "A service is available on Port 8000" select <b>Open Browser</b>
 
 ## Credits
+
+#### Images 
+Thank you to the following photographers and open source platforms for use and supply of their images.
+1. Callout Image : Creater & owners own, taken by a friend, 2018.
+2. Offering Carousel images : [Elly Sazonova](https://www.pexels.com/@elly-fairytale): Class Images, 
+[Vecislavas Popa](https://www.pexels.com/@fotoaibe) : Shower Image, [Andrea Piacquadio](https://www.pexels.com/@olly) : Reception Image, all at [Pexels](https://www.pexels.com/).
+3. Testimonial Avatars: Artist unknown at [Undraw](https://undraw.co/)
+4. Schedule & Pricing : [Elly Sazonova](https://www.pexels.com/@elly-fairytale): Hero Image. [CottonBro](https://www.pexels.com/@cottonbro): Schedule background image.
+5. Free Resources Hero Image : [Aaron Burden](https://unsplash.com/@aaronburden) at [Unsplash](https://unsplash.com/)
+
+#### Content
+Thank you to the following for sharing their content with our free resouces page.
+1. [Adrienne Mishler](https://yogawithadriene.com/adriene-mishler/) supplied YouTube Yoga tutorial video.
+2. [Sarah Blondin](https://www.sarahblondin.com/) supplied YouTube guided Meditation video.
+3. [Kathryn Ashworth](https://yogainternational.com/profile/kathryn-ashworth) at Yoga International supplied [Ram Dass](https://www.ramdass.org/) interview article.
+
+#### Color Phsycology
+1. [Black](https://ie.oberlo.com/blog/color-psychology-color-meanings)
+2. [Green](https://www.shutterstock.com/blog/complete-guide-color-in-design)
+3. [White](https://zevendesign.com/color-association/#white)
+4. [Beige](https://www.bourncreative.com/meaning-of-the-color-beige/)
+5. [Blue](https://www.verywellmind.com/the-color-psychology-of-blue-2795815#:~:text=The%20Psychology%20of%20Blue,-According%20to%20color&text=Blue%20calls%20to%20mind%20feelings,their%20advertising%20and%20marketing%20efforts)
+6. [Grey](https://ie.oberlo.com/blog/color-psychology-color-meanings#:~:text=In%20color%20psychology%2C%20grey%20represents,of%20color%20makes%20it%20dull)
+
+#### Code
+Special thanks to :
+1. The [Stack Over Flow](https://stackoverflow.com/questions/11948245/markdown-to-create-pages-and-table-of-contents) community for assistance with additional learning in semantics and fixing errors, particularly with the table of contents in my ReadMe.md.
+2. The [Web Dev Tutorials](https://www.youtube.com/watch?v=LbYKqXBy2hI) for assistance with targeting and customizing a Bootstrap NavBar.
+3. the tutors at Code Institute for their guidence and support.
+4. My mentor Rohit Sharma for his guidance and advice.
+5. My peers on the slack community for assistance with testing and guidance throughout the project.
