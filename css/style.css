@@ -211,7 +211,7 @@ a.dropdown-item:active {
 /*----------------------------------------------------------Call Out Container*/
 /*The Below is Taken & Modified from Matt Rudge Whiskey Drop Challenge Code Institute*/
 
-.callout-container {
+.home-hero-img {
     background: url(../assets/images/home/callOutImage.jpg) no-repeat center center fixed; /*Call out image : Designers property*/
     height: 90vh;
     -webkit-background-size: cover;
@@ -221,58 +221,6 @@ a.dropdown-item:active {
     align-items: center;
     justify-content: center;
     position: relative;    
-}
-
-.call-to-action{
-    align-items: center;
-    position: absolute;
-    max-height: 100px;
-    text-align: center;
-    margin-top: 250px;
-}
-
-.jumbotron {
-    background-color: transparent;
-}
-
-.call-to-action h1 {
-    color: white;
-    font-size: 60px; 
-    text-transform: capitalize;
-    text-align: center;
-}
-
-/*The media queries below will style the call to action to adjust for different screen
-types so the effect and position is as consitent as possible over multiple devices*/
-
-@media only screen and (max-width: 600px) {
-    .call-to-action h1 {
-    font-size: 25px;
-    }
-}
-
-@media only screen and (min-width: 768px) {
-    .call-to-action {
-        margin-top: 300px;
-    }
-}
-
-@media only screen and (min-width: 992px) {
-    .call-to-action {
-        margin-top: 500px;
-    }
-}
-
-@media only screen and (min-width: 1200px) {
-    .call-to-action {
-        margin-top: 250px;
-    }
-}
-
-@media only screen and (min-width: 1700px) {
-    .call-to-action {
-        margin-top: 350px;
-    }
 }
 
 /*----------------------------------------------------------Offering*/
