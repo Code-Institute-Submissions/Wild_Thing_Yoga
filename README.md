@@ -9,9 +9,7 @@ December 2020.</p>
     * [Design Simulation](#design-simulation)
 2. [User Experience Design](#user-experience-design)
    * [User Stories](#user-stories)
-        * [First Time Visitor Goals](#first-time-visitor-goals)
-        * [Returning Visitor Goals](#returning-visitor-goals)
-        * [Frequent Visitor Goals](#frequent-visitor-goals)
+        * [First Time & Returning Visitor Goals](#First-&-Returning-Visitor-Goals)
 
     *  [Design](#design)
         * [Structure](#structure)
@@ -38,11 +36,9 @@ December 2020.</p>
         * Am I Responsive
         * MicroSoft Snipping Tool
         
-    
-5. [Testing](#testing)
-6. [Deployment](#deployment)
+5. [Deployment](#deployment)
+6. [Testing](#testing)
 7. [Credits](#credits)
-8. [Conclusion](#conclusion)
 
 ## Strategic Purpose
 This website is created to be the official marketing tool for my business "Wild Thing Yoga".
