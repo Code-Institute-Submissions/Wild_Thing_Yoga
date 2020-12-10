@@ -14,7 +14,7 @@ December 2020.</p>
 
 2. [User Experience Design](#user-experience-design)
    * [User Stories](#user-stories)
-        * [First Time and Returning Visitor Goals](#First-and-Returning-Visitor-Goals)
+        * First Time and Returning Visitor Goals
     *  [Design](#design)
         * [Structure](#structure)
         * [Wireframes](#Wireframes)
@@ -27,23 +27,6 @@ December 2020.</p>
 3. [Features](#features)
 
 4. [Technologies](#technologies)
-    * [Languages](#languages)
-        * HTML
-        * CSS
-    * [Frameworks Libraries and Programmes](#Frameworks-Libraries-and-Programmes)
-        * GitHub
-        * Git/GitPod
-        * Bootstrap v4
-        * Google Fonts
-        * Font Awesome v4
-        * Canva
-        * Adobe Color Wheel
-        * Balsamiq
-        * Am I Responsive
-        * MicroSoft Snipping Tool
-        * Free Formatter
-        * W3C
-        * W3C Jigsaw
 
 5. [Deployment](#deployment)
     * [Deployment via GitHub Pages](#Deployment-via-GitHub-Pages)
