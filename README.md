@@ -42,8 +42,22 @@ December 2020.</p>
         * MicroSoft Snipping Tool
         
 5. [Deployment](#deployment)
+    * [Deployment via GitHub Pages](#Deployment-via-GitHub-Pages)
+    * [Forking a Repository to your GitHub Account](#Forking-a-Repository-to-your-GitHub-Account)
+    * [Making a Clone in GitPod](#Making-a-Clone-in-GitPod)
+
 6. [Testing](#testing)
+    * [Funtionality & Features across browsers](#Funtionality-&-Features-across-browsers)
+    * [User Stoies](#User-Stoies)
+    * [Strategic Purpose](#Strategic-Purpose)
+    * [Main-Bugs-&-Fixes](#Main-Bugs-&-Fixes)
+
 7. [Credits](#credits)
+    * [Images](#Images)
+    * [Content](#Content)
+    * [Color Phsycology](#Color-Phsycology)
+    * [Code](#Code)
+    * [Acknowledgements](#Acknowledgements)
 
 ## Strategic Purpose
 This website is created to be the official marketing tool for my business "Wild Thing Yoga".
@@ -142,15 +156,15 @@ by myself or from open sources,  please see [<em>credits</em>](#credits) for a l
 A fourth and fifth page for a members log in and merchandise/equipment shop
 will be implimented in the future but was not possible due to time constraints. The forms
 are not functioning for the business at present and do not have <method="POST"> or <action=""> included as there is no where to "post" to yet. 
-this is due to the mechanisms of that feature being outside the scope of the project and my knowledge of JavaScript and capabilities at this time.
+This is due to the mechanisms of that feature being outside the scope of the project and my knowledge of JavaScript and capabilities at this time.
 
 #### Design Differences
 An additional table was added to the Pricing & Schedule page after the wireframes were created.
 The footer in the wireframes is a little different from execution but the concept a disired function is ultimately the same.
 
 ## Features
- - Responsive on all devices
- - Supported by Chrome, Safari and Firefox browsers
+ - Responsive on all devices.
+ - Supported by Chrome, Microsoft Edge and Firefox browsers.
  - Interactive Elements : Navbar, Forms, Buttons, Video's.
  - Adapted for users with special accessibility requirements where possible
  - The Navbar will be sticky to allow ease of naviagtion for the user at all times.
@@ -189,8 +203,6 @@ The footer in the wireframes is a little different from execution but the concep
   12. [Free Formatter](https://www.freeformatter.com/html-formatter.html) Was used in place of extensions due to an error on GitPod caused by a recent update.
   13. [Convertico](https://convertico.com/) Used for the Favicon image.
 
-## Testing
-
 ## Deployment
 
 #### Deployment via GitHub Pages
@@ -226,6 +238,45 @@ account from here you can update and make changes without affecting the original
 into the console and hit enter.
 - A pop up will appear stating "A service is available on Port 8000" select <b>Open Browser</b>
 
+## Testing
+
+Testing is will be carried out under two premises : user stories and the business strategic purpose.
+As it is a static website the focus will be on funtionality of the links, value of the content,
+responsiveness and visual design.
+
+Testing was documented using Microsoft Excel and the full spreadsheet can be found [here](/assets/testing.xlsx).
+Screen schots of all results are below.
+
+HTML and CSS  semantics and validity was tested through out with [W3C](https://validator.w3.org/) for HTML
+and [W3c Jigsaw](https://jigsaw.w3.org/css-validator/) for CSS.
+
+#### Funtionality & Features across browsers
+<img src="assets/images/readMe/featuresTestTable.PNG">
+
+#### User Stoies 
+<img src="assets/images/readMe/userStoriesTable.PNG">
+
+#### Strategic Purpose
+<img src="assets/images/readMe/strategicPurpose.PNG">
+
+##### Main Bugs & Fixes
+
+- Jumbotron sizing issues : The jumbotron and booking button were not responsive on different screen sizes.
+This was combatted with reducing the font size of the "h1" element and targeted @MediaQueries. The font size increases for screens
+of 1200px and above, for screen sizes of 768px width and below the font size reduces and the top margin increasess.
+The margin increase is to push the "h1" out from under the NavBar. The button reduces in size with a media query also
+for screens 850px and below. Widths were determined by researchinf break points and through trial and error testing.
+- Brand text in the NavBar sizing issue: The brand text in the nav bar is also controlled for resposivness with 
+media queries as it was too large in some screens and sending the toggle button below the logo. This still happens 
+but only on very small screens and is part of the bootstrap design. The brand text now decreases in size on smaller screens 
+and completely dissapears on very small screens.
+- Carousel: the way the carousel was origianlly written in the HTML is was creating a white space to the right of the 
+hero image. The carousel ws placed inside a container <div> to combat this.
+- Deployed links: Internal links were not working when the site was first deployed. File paths were updated 
+to include the website name to show the correct location in the public site.
+- Footer display: the font in the footer wasn't as strong and easily read as I had hoped and this was combatted by adding a
+text shadow.
+
 ## Credits
 
 #### Images 
@@ -255,6 +306,11 @@ Thank you to the following for sharing their content with our free resouces page
 Special thanks to :
 1. The [Stack Over Flow](https://stackoverflow.com/questions/11948245/markdown-to-create-pages-and-table-of-contents) community for assistance with additional learning in semantics and fixing errors, particularly with the table of contents in my ReadMe.md.
 2. The [Web Dev Tutorials](https://www.youtube.com/watch?v=LbYKqXBy2hI) for assistance with targeting and customizing a Bootstrap NavBar.
-3. The tutors at Code Institute for their guidence and support.
-4. My mentor Rohit Sharma for his guidance and advice through out.
-5. My peers on the slack community for assistance with testing and guidance throughout the project.
+3. The [Tips with Punch](https://www.youtube.com/watch?v=9YffrCViTVk) watched before embedding my Youtube video's.
+
+##### Acknowledgements
+Speacial thanks to:
+1. The tutors at Code Institute for their guidence and support, in particular 
+Amanda and Tim for their help with Nav issues and their great attitude.
+2. My mentor Rohit Sharma for his guidance and advice through out.
+3. My peers on the slack community for assistance with testing and guidance throughout the project.
