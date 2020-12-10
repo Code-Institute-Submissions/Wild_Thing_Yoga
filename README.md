@@ -82,7 +82,7 @@ Creating a positive user experience for customers that they will return to again
 
 ### Design Simulation
 <img src="assets/images/readMe/designSimulation.PNG" alt="Am I Responsive Design Simulation">
-The live site can be found <a href="https://janeyrinn.github.io/Wild_Thing_Yoga/">here</a>
+The live site can be found <a href="https://janeyrinn.github.io/Wild_Thing_Yoga/" target="_blank">here</a>
 
 
 ## User Experience Design
@@ -90,14 +90,21 @@ The live site can be found <a href="https://janeyrinn.github.io/Wild_Thing_Yoga/
 ### User Stories
 #### First Time & Returning Visitor Goals
 
-> - Easily understands the main purpose and navigation pathways of the site
-> - Information is clearly presented and easily absorbed with minimal effort
-> - Features load quickly, are adapted to my device, my needs and supported by my browser
+> - Easily understands the main purpose and navigation pathways of the site <br>
+<img src="assets/images/readMe/userStoryOne.PNG" alt="NavBar-Image">
+> - Information is clearly presented and easily absorbed with minimal effort <br>
+<img src="assets/images/readMe/userStoryTwo.PNG" height="40" alt="Form-error-image">
+> - Features load quickly, are adapted to my device, my needs and supported by my browser<br>
+<img src="assets/images/readMe/browsers.PNG" height="40" alt="Browser-Logos">
 > - I can learn more about the offering and their interaction with others via social
-media or through testimonials to determine whether they are trustworthy and of value to me
-> - Easily learn of upcoming classes and book those classes
-> - Access contact information/contact the organization
-> - Avail of free resources
+media or through testimonials to determine whether they are trustworthy and of value to me<br>
+<img src="assets/images/readMe/userStoryThree.PNG" height="40" alt="social-media-buttons-image">
+> - Easily learn of upcoming classes and book those classes<br>
+<img src="assets/images/readMe/userStoryFour.PNG" height="40" width="200" alt="schedule-image">
+> - Access contact information/contact the organization <br>
+<img src="assets/images/readMe/userStoryFive.PNG" height="40" width="100" alt="contact-info-image">
+> - Avail of free resources<br>
+<img src="assets/images/readMe/userStorySix.PNG" height="40" width="200" alt="embeded-video-image">
 
 ### Design
 #### Structure
