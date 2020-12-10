@@ -55,6 +55,7 @@ December 2020.</p>
     * [User Stoies](#User-Stoies)
     * [Strategic Purpose](#Strategic-Purpose)
     * [Main Bugs & Fixes](#Main-Bugs-&-Fixes)
+    * [Testing Limitations](#Testing-Limitations)
 
 7. [Credits](#credits)
     * [Images](#Images)
@@ -190,7 +191,7 @@ The footer in the wireframes is a little different from execution but the concep
 
  ### Frameworks Libraries & Programs
 
-  1. [Git Hub](https://github.com/janeyrinn/Wild_Thing_Yoga) Used to store and share the projects code.
+  1. [Git Hub](https://github.com/janeyrinn/Wild_Thing_Yoga) Used to store and share the projects code)
   2. [Git/GitPod](https://fde7900b-2e73-4d3d-8066-0c3a506e1ef2.ws-eu01.gitpod.io/#/workspace/Wild_Thing_Yoga) Used for creation, version control and to commit and push to Git Hub.
   3. [Bootstrap v4](https://getbootstrap.com/) Used for responsivness and styling of the site.
   4. [Google Fonts](https://fonts.google.com/) Used to import the Sanchez and Raleway fonts.
@@ -280,6 +281,11 @@ hero image. The carousel was placed inside a container "div" to combat this.
 to include the website name to show the correct location in the public site.
 - Footer display: the font in the footer wasn't as strong and easily read as I had hoped and this was combatted by adding a
 text shadow.
+
+##### Testing Limitations
+Testing was limited to the three browsers mentioned above, although I had wished to have the site function on Safari
+as it is a popular browser I could not. I do not own an Apple Mac or Tablet and you can no longer download Safari for Windows.I reached out to colleagues
+and friends to assist with Safari testing but I am not confident to include the results for the purpose of the MS1. 
 
 ## Credits
 
