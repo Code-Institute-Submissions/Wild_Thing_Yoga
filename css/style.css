@@ -239,7 +239,7 @@ a.dropdown-item:active {
 /*The Below is Taken & Modified from Matt Rudge Whiskey Drop Challenge Code Institute*/
 
 .home-hero-img {
-	background: url(../assets/images/home/callOutImage.jpg) no-repeat center center fixed;
+	background: url(../assets/images/home/callout-image.jpg) no-repeat center center fixed;
 	/*Call out image : Designers property*/
 	height: 90vh;
 	-webkit-background-size: cover;
@@ -340,7 +340,7 @@ a.dropdown-item:active {
 /*The Below hero img code is taken & modified from Matt Rudge Whiskey Drop Challenge Code Institute*/
 
 .schedule-hero-img {
-	background: url(../assets/images/schedule/sazonovaSchedule.jpg) no-repeat center center fixed;
+	background: url(../assets/images/schedule/sazonovaschedule.jpg) no-repeat center center fixed;
 	height: 80vh;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -368,7 +368,7 @@ a.dropdown-item:active {
 }
 
 .schedule-container {
-	background-image: url(../assets/images/schedule/cottonBro.jpg);
+	background-image: url(../assets/images/schedule/cottonbro.jpg);
 	background-repeat: no-repeat;
 	/*Code borrowed and customized from Brian O'Grady Love Running Challenge*/
 	background-size: cover;
@@ -404,7 +404,7 @@ a.dropdown-item:active {
 /*----------------------------------------------------------Free Resources*/
 
 .resources-hero-img {
-	background: url(../assets/images/resources/aaronBurden.jpg) no-repeat bottom center fixed;
+	background: url(../assets/images/resources/aaronburden.jpg) no-repeat bottom center fixed;
 	height: 80vh;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;

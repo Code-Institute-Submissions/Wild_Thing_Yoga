@@ -1,5 +1,5 @@
 <h1>Wild Thing Yoga<br></h1>
-<img src="assets/images/readMe/readMeLogo.PNG" height="100" width="100" alt="logo">
+<img src="assets/images/readme/readmelogo.png" height="100" width="100" alt="logo">
 <p>Code Institute, Diploma in Full Stack Software Development Milestone Project 1, 
 December 2020.</p>
 
@@ -52,7 +52,7 @@ The site is to be responsive on all devices, while being easy and enjoyable to n
 Creating a positive user experience for customers that they will return to again and again.
 
 ### Design Simulation
-<img src="assets/images/readMe/designSimulation.PNG" alt="Am I Responsive Design Simulation">
+<img src="assets/images/readme/designsimulation.png" alt="Am I Responsive Design Simulation">
 The live site can be found <a href="https://janeyrinn.github.io/Wild_Thing_Yoga/" target="_blank">here</a>
 
 ## User Experience Design
@@ -83,11 +83,11 @@ The free resources page will have topical articals and online tutorials, which w
 reguarly.
 
 #### Wireframes
-A mock up of how the site will be layed out is available here via [Wire Frames](assets/wireFrames.pdf).
+A mock up of how the site will be layed out is available here via [Wire Frames](assets/wireframes.pdf).
 
 #### Color Scheme
 
-<img src="assets/images/readMe/swatch.PNG" alt="color-swatch">
+<img src="assets/images/readme/swatch.png" alt="color-swatch">
 
 The above color swatch shows a guide line for the color scheme of the site, 
 black and white will also be incorporated.
@@ -183,10 +183,10 @@ The footer in the wireframes is a little different from execution but the concep
 
 1. Select the <b>Repository</b> you wish to deploy.
 2. Under the <em>"Repo"</em> name on the top left of the screen
-there is a menu,<br><img src="assets/images/readMe/depOne.PNG" height="30" width="200" alt="menu-image"> select the settings tab on this menu.
+there is a menu,<br><img src="assets/images/readme/depone.png" height="30" width="200" alt="menu-image"> select the settings tab on this menu.
 3. Scroll down to the <b>GitHub Pages</b> section.
 4. Under <b>Source</b> use the <b>None or Branch</b> drop down menu to select the 
-publishing source you wish to use. <b>Main</b> is recommened. <br><img src="assets/images/readMe/depTwo.PNG" height="55" width="220" alt="source-image"><br>
+publishing source you wish to use. <b>Main</b> is recommened. <br><img src="assets/images/readme/deptwo.png" height="55" width="220" alt="source-image"><br>
 5. Select <b>Save</b> and refresh the page. 
 6. Your published address will appear in a green highlighted container above <b>Source</b>.
 7. Click the link to test it works.
@@ -197,13 +197,13 @@ Forking the <em>Repo</em> will allow you to duplicate the repository in your own
 account from here you can update and make changes without affecting the original.
 
 1. Select the <b>Repository</b> you wish to fork.
-2. On the top right of the screen uder the Navigation click the Fork symbol<br> <img src="assets/images/readMe/fork.png" height="30" alt="fork-image">.
+2. On the top right of the screen uder the Navigation click the Fork symbol<br> <img src="assets/images/readme/fork.png" height="30" alt="fork-image">.
 3. The <em>Repo</em> should now appear in your GitHub account repository directory.
 4. Select the green <b>Gitpod</b> button in the <em>Repo</em> to open a workspace and make changes.
 
 #### Making a Clone in GitPod
 1. Select the <em>Repo</em> you wish to clone in GitHub.
-2. Click on the Code dropdown button. <br> <img src="assets/images/readMe/depThree.PNG" height="35" width="250" alt="code-button-image">
+2. Click on the Code dropdown button. <br> <img src="assets/images/readme/depthree.png" height="35" width="250" alt="code-button-image">
 3. Copy the link to your clipboard.
 4. Open Git Bash.
 5. In the console type <em>"git clone"</em> and paste the copied link.
@@ -225,13 +225,13 @@ HTML and CSS  semantics and validity was tested through out with [W3C](https://v
 and [W3c Jigsaw](https://jigsaw.w3.org/css-validator/) for CSS.
 
 #### Funtionality & Features across Browsers
-<img src="assets/images/readMe/featuresTestTable.PNG">
+<img src="assets/images/readme/features-table.png">
 
 #### User Stoies 
-<img src="assets/images/readMe/userStoriesTable.PNG">
+<img src="assets/images/readme/user-stories-table.png">
 
 #### Strategic Purpose
-<img src="assets/images/readMe/strategicPurpose.PNG">
+<img src="assets/images/readme/strategic-purpose-table.png">
 
 ##### Main Bugs & Fixes
 
