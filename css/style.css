@@ -233,7 +233,7 @@ a.dropdown-item:active {
     display: flex;  
     align-items: center;
     justify-content: center;
-    position: relative;    
+    position: relative;   
 }
 
 .jumbotron {
@@ -395,13 +395,13 @@ a.resource-link {
 }
 
 /*The 2 below iframe code rules were taken and customized from "tips with punch" YouTube Tutorial*/
-.iframe-resources{
+.resources-iframe{
     position: relative;
     width: 80%;
     padding-bottom: 25%; 
     height: 0;
 }
-.iframe-resources iframe{
+.resources-iframe iframe{
     position: absolute;
     top:0;
     left: 0;
