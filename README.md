@@ -11,10 +11,10 @@ December 2020.</p>
 # Table of Contents 
 1. [Strategic Purpose](#strategic-purpose)
     * [Design Simulation](#design-simulation)
+
 2. [User Experience Design](#user-experience-design)
    * [User Stories](#user-stories)
         * [First Time & Returning Visitor Goals](#First-&-Returning-Visitor-Goals)
-
     *  [Design](#design)
         * [Structure](#structure)
         * [Wireframes](#wire-frames)
@@ -25,6 +25,7 @@ December 2020.</p>
         * [Design Differences](#design-differences)
 
 3. [Features](#features)
+
 4. [Technologies](#technologies)
     * [Languages](#languages)
         * HTML
@@ -40,14 +41,17 @@ December 2020.</p>
         * Balsamiq
         * Am I Responsive
         * MicroSoft Snipping Tool
-        
+        * Free Formatter
+        * W3C
+        * W3C Jigsaw
+
 5. [Deployment](#deployment)
     * [Deployment via GitHub Pages](#Deployment-via-GitHub-Pages)
     * [Forking a Repository to your GitHub Account](#Forking-a-Repository-to-your-GitHub-Account)
     * [Making a Clone in GitPod](#Making-a-Clone-in-GitPod)
 
 6. [Testing](#testing)
-    * [Funtionality & Features across browsers](#Funtionality-&-Features-across-browsers)
+    * [Funtionality & Features across Browsers](#Funtionality-&-Features-across-browsers)
     * [User Stoies](#User-Stoies)
     * [Strategic Purpose](#Strategic-Purpose)
     * [Main-Bugs-&-Fixes](#Main-Bugs-&-Fixes)
@@ -61,14 +65,14 @@ December 2020.</p>
 
 ## Strategic Purpose
 This website is created to be the official marketing tool for my business "Wild Thing Yoga".
-It should be a asset to the business to increase growth and improve rates of student retention 
-while also being a of value to the students and improving their customer experience.
+It should be an asset to the business to increase growth and improve rates of student retention 
+while also being of value to the students and improving their customer experience.
 
 The site will be a place for students and potential students to learn about our offering, 
-book classes,contact us and avil of free resources. 
+book classes, contact us and avail of free resources. 
 
 Features are to entice new students to join classes, add value for existing students while also cutting down 
-on correspondance for the business regarding frequently asked questions and errors caused by typo's
+on correspondance for the business, regarding frequently asked questions and errors caused by typo's
 or lack of information. 
 
 Content should be clear, informative and adapted for screen readers so it is accessible for all.
@@ -101,8 +105,7 @@ The site will be made up of 3 pages with 2 to 3 sections on each page, all pages
 'sticky' navigation bar and a footer containing contact information. 
 
 The Home page will have links to book a class, images of the studio and past classes,
-testimonials, frequently asked questions and an option to submit a question or subscribe
-to our newsletter if they want to.
+testimonials, frequently asked questions and an option to submit a question.
 
 The booking page will have our class schedule, pricing information and a booking form.
 
@@ -110,7 +113,7 @@ The free resources page will have topical articals and online tutorials, which w
 reguarly.
 
 #### Wireframes
-[Wire Frame Mock Up](assets/wireFrames.pdf)
+A mock up of how the site will be layed out is available here via [Wire Frames](assets/wireFrames.pdf).
 
 #### Color Scheme
 
@@ -118,7 +121,7 @@ reguarly.
 
 The above color swatch shows a guide line for the color scheme of the site, 
 black and white will also be incorporated.
-Colors are brand colors which have been adopted for the following reasons:<br>
+Colors are brand colors which have been adopted for the following reasons:
 <br>
 
 Color | Consumer Association
@@ -139,7 +142,7 @@ read layout. <br>
 
 #### Typography
 
-The Sanchez font, created by [<em>Daniel Hernandez</em>](https://fonts.google.com/specimen/Sanchez?query=sanchez) will be the main font for
+The Dancing Script font, created by [<em>Pablo Impallari</em>](https://fonts.google.com/specimen/Dancing+Script?query=dancing#about) will be the main font for
 the company name and headings, Raleway which is hosted on google fonts also, by multiple creators,
 will be the secondary font used for the body of text. Sans Serif will be the fallback font
 if for any reason the main fonts are not being imported or displayed correctly. 
@@ -156,11 +159,11 @@ by myself or from open sources,  please see [<em>credits</em>](#credits) for a l
 A fourth and fifth page for a members log in and merchandise/equipment shop
 will be implimented in the future but was not possible due to time constraints. The forms
 are not functioning for the business at present and do not have <method="POST"> or <action=""> included as there is no where to "post" to yet. 
-This is due to the mechanisms of that feature being outside the scope of the project and my knowledge of JavaScript and capabilities at this time.
+This is due to the mechanisms of that feature being outside the scope of the project.
 
 #### Design Differences
 An additional table was added to the Pricing & Schedule page after the wireframes were created.
-The footer in the wireframes is a little different from execution but the concept a disired function is ultimately the same.
+The footer in the wireframes is a little different from execution but the concept and desired function is ultimately the same.
 
 ## Features
  - Responsive on all devices.
@@ -191,9 +194,9 @@ The footer in the wireframes is a little different from execution but the concep
   2. [Git/GitPod](https://fde7900b-2e73-4d3d-8066-0c3a506e1ef2.ws-eu01.gitpod.io/#/workspace/Wild_Thing_Yoga) Used for creation, version control and to commit and push to Git Hub.
   3. [Bootstrap v4](https://getbootstrap.com/) Used for responsivness and styling of the site.
   4. [Google Fonts](https://fonts.google.com/) Used to import the Sanchez and Raleway fonts.
-  5. [Font Awesome](https://fontawesome.com/v4.7.0/)
+  5. [Font Awesome](https://fontawesome.com/v4.7.0/) Used for footer icons.
   6. [Canva](https://www.canva.com/) For creation of the logo.
-  7. [Adobe Color Wheel](https://color.adobe.com/create/image-gradient) Image gradient feature was used to extract colors used in the logo and build a colour theme.
+  7. [Adobe Color Wheel](https://color.adobe.com/create/image-gradient) Image gradient feature was used to extract colors used in the logo and build a colour scheme.
   8. [Balsamiq](https://balsamiq.com/) Used to create wireframes during the design process.
   9. [Am I Responsive](http://ami.responsivedesign.is/) Used to check responsivity of code and display the mock up in the documentation.
   10. [MicroSoft Sniping Tool](https://support.microsoft.com/en-us/windows/use-snipping-tool-to-capture-screenshots-00246869-1843-655f-f220-97299b865f6b) Used for various images, such as the color swatch and
@@ -201,7 +204,8 @@ The footer in the wireframes is a little different from execution but the concep
   11. [Microsoft Photo Editor](https://support.microsoft.com/en-us/windows/edit-photos-and-videos-in-windows-10-a3a6e711-1b70-250a-93fa-ef99048a2c86) Used for editing the resolution of photos in the carosel 
   to tone in with the colour scheme.
   12. [Free Formatter](https://www.freeformatter.com/html-formatter.html) Was used in place of extensions due to an error on GitPod caused by a recent update.
-  13. [Convertico](https://convertico.com/) Used for the Favicon image.
+  13. [W3C](https://validator.w3.org/) used to validate HTML code.
+  14. [W3c Jigsaw](https://jigsaw.w3.org/css-validator/) used to validate CSS code.
 
 ## Deployment
 
@@ -234,13 +238,13 @@ account from here you can update and make changes without affecting the original
 4. Open Git Bash.
 5. In the console type <em>"git clone"</em> and paste the copied link.
 6. Hit enter to create the clone.<br>
- - To view what the code will look like in a browser from here type <em>" python3 -m http.server"</em>
+    - To view what the code will look like in a browser from here type <em>" python3 -m http.server"</em>
 into the console and hit enter.
-- A pop up will appear stating "A service is available on Port 8000" select <b>Open Browser</b>
+    - A pop up will appear stating "A service is available on Port 8000" select <b>Open Browser</b>
 
 ## Testing
 
-Testing is will be carried out under two premises : user stories and the business strategic purpose.
+Testing is will be carried out under two premises : User Stories and the Business Strategic purpose.
 As it is a static website the focus will be on funtionality of the links, value of the content,
 responsiveness and visual design.
 
@@ -265,13 +269,13 @@ and [W3c Jigsaw](https://jigsaw.w3.org/css-validator/) for CSS.
 This was combatted with reducing the font size of the "h1" element and targeted @MediaQueries. The font size increases for screens
 of 1200px and above, for screen sizes of 768px width and below the font size reduces and the top margin increasess.
 The margin increase is to push the "h1" out from under the NavBar. The button reduces in size with a media query also
-for screens 850px and below. Widths were determined by researchinf break points and through trial and error testing.
+for screens 850px and below. Widths were determined by researching break points and through trial and error testing.
 - Brand text in the NavBar sizing issue: The brand text in the nav bar is also controlled for resposivness with 
 media queries as it was too large in some screens and sending the toggle button below the logo. This still happens 
 but only on very small screens and is part of the bootstrap design. The brand text now decreases in size on smaller screens 
 and completely dissapears on very small screens.
-- Carousel: the way the carousel was origianlly written in the HTML is was creating a white space to the right of the 
-hero image. The carousel ws placed inside a container <div> to combat this.
+- Carousel: the way the carousel was origianally written in the HTML it was creating a white space to the right of the 
+hero image. The carousel was placed inside a container "div" to combat this.
 - Deployed links: Internal links were not working when the site was first deployed. File paths were updated 
 to include the website name to show the correct location in the public site.
 - Footer display: the font in the footer wasn't as strong and easily read as I had hoped and this was combatted by adding a
@@ -304,11 +308,11 @@ Thank you to the following for sharing their content with our free resouces page
 
 #### Code
 Special thanks to :
-1. The [Stack Over Flow](https://stackoverflow.com/questions/11948245/markdown-to-create-pages-and-table-of-contents) community for assistance with additional learning in semantics and fixing errors, particularly with the table of contents in my ReadMe.md.
+1. The [Stack Over Flow](https://stackoverflow.com/questions/11948245/markdown-to-create-pages-and-table-of-contents) community for assistance with additional learning in semantics and fixing errors, particularly with the table of contents in my "Read Me".
 2. The [Web Dev Tutorials](https://www.youtube.com/watch?v=LbYKqXBy2hI) for assistance with targeting and customizing a Bootstrap NavBar.
 3. The [Tips with Punch](https://www.youtube.com/watch?v=9YffrCViTVk) watched before embedding my Youtube video's.
 
-##### Acknowledgements
+#### Acknowledgements
 Speacial thanks to:
 1. The tutors at Code Institute for their guidence and support, in particular 
 Amanda and Tim for their help with Nav issues and their great attitude.
