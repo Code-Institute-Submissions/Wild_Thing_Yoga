@@ -17,7 +17,7 @@ December 2020.</p>
         * [First Time & Returning Visitor Goals](#First-&-Returning-Visitor-Goals)
     *  [Design](#design)
         * [Structure](#structure)
-        * [Wireframes](#wire-frames)
+        * [Wireframes](#Wireframes)
         * [Color Scheme](#color-scheme)
         * [Typography](#typography)
         * [Imagery](#imagery)
@@ -30,7 +30,7 @@ December 2020.</p>
     * [Languages](#languages)
         * HTML
         * CSS
-    * [Frameworks Libraries & Programmes](#frameworks-libraries-&-programmes)
+    * [Frameworks Libraries & Programmes](#Frameworks-Libraries-&-Programmes)
         * GitHub
         * Git/GitPod
         * Bootstrap v4
@@ -51,15 +51,15 @@ December 2020.</p>
     * [Making a Clone in GitPod](#Making-a-Clone-in-GitPod)
 
 6. [Testing](#testing)
-    * [Funtionality & Features across Browsers](#Funtionality-&-Features-across-browsers)
+    * [Funtionality & Features across Browsers](#Funtionality-&-Features-across-Browsers)
     * [User Stoies](#User-Stoies)
     * [Strategic Purpose](#Strategic-Purpose)
-    * [Main-Bugs-&-Fixes](#Main-Bugs-&-Fixes)
+    * [Main Bugs & Fixes](#Main-Bugs-&-Fixes)
 
 7. [Credits](#credits)
     * [Images](#Images)
     * [Content](#Content)
-    * [Color Phsycology](#Color-Phsycology)
+    * [Color Psychology](#Color-Psychology)
     * [Code](#Code)
     * [Acknowledgements](#Acknowledgements)
 
@@ -79,7 +79,7 @@ Content should be clear, informative and adapted for screen readers so it is acc
 The site is to be responsive on all devices, while being easy and enjoyable to navigate through. 
 Creating a positive user experience for customers that they will return to again and again.
 
-
+### Design Simulation
 <img src="assets/images/readMe/designSimulation.PNG" alt="Am I Responsive Design Simulation">
 
 ___
@@ -87,7 +87,7 @@ ___
 ## User Experience Design
 
 ### User Stories
-#### First & Returning Visitor Goals
+#### First Time & Returning Visitor Goals
 
 > - Easily understands the main purpose and navigation pathways of the site
 > - Information is clearly presented and easily absorbed with minimal effort
@@ -151,7 +151,7 @@ profesionalism.
 
 #### Imagery
 Branding is an important marketing tool so a logo has been developed using 
-[<em>Canva.com</em>](https://www.canva.com/design/DAEOhUvrb0E/PlrtIsOaalfq_bSkxw6D8w/edit?layoutQuery=lotus+logo),
+[<em>Canva.com</em>](https://www.canva.com/),
 this logo will feature throughout the website. Images will be supplied
 by myself or from open sources,  please see [<em>credits</em>](#credits) for a list of sources and photographers.
 
@@ -188,7 +188,7 @@ The footer in the wireframes is a little different from execution but the concep
  - [HTML](https://www.w3schools.com/html/)
  - [CSS](https://www.w3schools.com/css/default.asp)
 
- ### Frameworks Libraries & Programs Used
+ ### Frameworks Libraries & Programs
 
   1. [Git Hub](https://github.com/janeyrinn/Wild_Thing_Yoga) Used to store and share the projects code.
   2. [Git/GitPod](https://fde7900b-2e73-4d3d-8066-0c3a506e1ef2.ws-eu01.gitpod.io/#/workspace/Wild_Thing_Yoga) Used for creation, version control and to commit and push to Git Hub.
@@ -254,7 +254,7 @@ Screen schots of all results are below.
 HTML and CSS  semantics and validity was tested through out with [W3C](https://validator.w3.org/) for HTML
 and [W3c Jigsaw](https://jigsaw.w3.org/css-validator/) for CSS.
 
-#### Funtionality & Features across browsers
+#### Funtionality & Features across Browsers
 <img src="assets/images/readMe/featuresTestTable.PNG">
 
 #### User Stoies 
@@ -298,7 +298,7 @@ Thank you to the following for sharing their content with our free resouces page
 2. [Sarah Blondin](https://www.sarahblondin.com/) supplied YouTube guided Meditation video.
 3. [Kathryn Ashworth](https://yogainternational.com/profile/kathryn-ashworth) at Yoga International supplied [Ram Dass](https://www.ramdass.org/) interview article.
 
-#### Color Phsycology
+#### Color Psychology
 1. [Black](https://ie.oberlo.com/blog/color-psychology-color-meanings)
 2. [Green](https://www.shutterstock.com/blog/complete-guide-color-in-design)
 3. [White](https://zevendesign.com/color-association/#white)
@@ -313,7 +313,7 @@ Special thanks to :
 3. The [Tips with Punch](https://www.youtube.com/watch?v=9YffrCViTVk) watched before embedding my Youtube video's.
 
 #### Acknowledgements
-Speacial thanks to:
+Special thanks to:
 1. The tutors at Code Institute for their guidence and support, in particular 
 Amanda and Tim for their help with Nav issues and their great attitude.
 2. My mentor Rohit Sharma for his guidance and advice through out.
