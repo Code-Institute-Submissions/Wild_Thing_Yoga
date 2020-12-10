@@ -461,10 +461,6 @@ a.resource-link {
 
 /*----------------------------------------------------------Forms*/
 
-
-/*The form will not submit to any data base as this is not required for the MS1
-this will be updated to function in the future*/
-
 .form {
 	background-color: #848387;
 	padding-top: 20px;
@@ -474,7 +470,6 @@ this will be updated to function in the future*/
 .form-control:hover {
 	border: solid black 1.5px;
 }
-
 
 /*Booking Form Specific*/
 
@@ -498,9 +493,7 @@ this will be updated to function in the future*/
 	color: white;
 }
 
-
 /*----------------------------------------------------------Footer*/
-
 
 /*The Below code relating to social media buttons is taken & modified from Matt Rudge UCD Resume Challenge Code Institute*/
 
