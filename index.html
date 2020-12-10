@@ -1,328 +1,258 @@
 <!DOCTYPE html>
 <html lang="en-US">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="Wild Thing Yoga" content="yoga, yin, hatha, vinyasa, kids yoga, teen yoga, yoga classes, meditation" />
-		<link
-        rel="stylesheet"
-        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"/>
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-			type="text/css">
-		<link rel="stylesheet" href="css/style.css" type="text/css" />
-		<title>Wild Thing Yoga</title>
-		<link rel="shortcut icon" type="image/png" href="favicon.png"><!--Code found at medium.com-->
-	</head>
-	<body>
-		<!--Start of Nav Bar : Taken from Bootstrap V4 Components-->
-		<section id="NavBar">
-			<div class="header">
-				<div class="nav-menu">
-					<nav class="navbar fixed-top navbar-expand-lg navbar-light">
-						<a class="navbar-brand" href="index.html">
-						<img  class="logo" src="assets/logo.png" alt="logo">
-						Yoga Classes for Kids Teens & Adults
-						</a>
-						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-							aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-						</button>
-						<div class="collapse navbar-collapse" id="navbarNavDropdown">
-							<ul class="navbar-nav ml-auto">
-								<li class="nav-item active">
-									<a class="nav-link hvr-underline-from-center" href="index.html">Home
-									<span class="sr-only">(current)</span>
-									</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link hvr-underline-from-center " href="schedule.html">Schedule &
-									Pricing</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link hvr-underline-from-center" href="resources.html">Free
-									Resources</a>
-								</li>
-								<li class="nav-item dropdown">
-									<a class="nav-link hvr-underline-from-center dropdown-toggle" href="#"
-										id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
-										aria-haspopup="true" aria-expanded="false">
-									Contact Us
-									</a>
-									<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-										<a class="dropdown-item" href="#Contact-Us">Contact Form</a>
-										<a class="dropdown-item" href="/Wild_Thing_Yoga/schedule.html#Booking-Form">Book a Class</a>
-									</div>
-								</li>
-							</ul>
-						</div>
-					</nav>
-				</div>
-			</div>
-		</section>
-		<!--Start of Callout Container: Code Taken and Modified from Matt Rudge Whiskey Drop Challenge-->
-		<header id="call-out-container">
-			<div class="container-fluid home-hero-img">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+        <link rel="stylesheet" href="css/style.css" type="text/css" />
+        <title>Wild Thing Yoga</title>
+        <!--Code for favicon found at medium.com-->
+        <link rel="shortcut icon" type="image/png" href="favicon.png" />
+    </head>
+    <body>
+        <!--Start of Nav Bar : Taken from Bootstrap V4 Components-->
+        <nav id="NavBar">
+            <div class="header">
+                <div class="nav-menu">
+                    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+                        <a class="navbar-brand" href="index.html">
+                            <img class="logo" src="assets/logo.png" alt="logo" />
+                            Yoga Classes for Kids Teens & Adults
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link hvr-underline-from-center" href="index.html">
+                                        Home
+                                        <span class="sr-only">(current)</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link hvr-underline-from-center" href="schedule.html">Schedule & Pricing</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link hvr-underline-from-center" href="resources.html">Free Resources</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link hvr-underline-from-center dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Contact Us
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" href="#Contact-Us">Contact Form</a>
+                                        <a class="dropdown-item" href="/Wild_Thing_Yoga/schedule.html#Booking-Form">Book a Class</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </nav>
+        <!--Start of Callout Container: Code Taken and Modified from Matt Rudge Whiskey Drop Challenge-->
+        <header id="call-out-container">
+            <div class="container-fluid home-hero-img">
                 <div class="row">
                     <div class="col-12">
                         <div class="text-center jumbotron jumbotron-fluid">
                             <h1 class="callout-header">Start your Yoga Journey Today</h1>
-                                <a class="btn booknow-btn" href="/Wild_Thing_Yoga/schedule.html#Booking-Form" role="button">Book Now!</a>
+                            <a class="btn booknow-btn" href="/Wild_Thing_Yoga/schedule.html#Booking-Form" role="button">Book Now!</a>
                         </div>
                     </div>
                 </div>
-			</div>
-		</header>
-		<!--Start of Our Offering-->
-		<section id="Yoga-Studio-Offering">
-			<div class="container body-container">
-				<div class="container fluid">
-					<div class="row justify-content-center">
-						<div class="col-12">
-							<h2>Our Offering</h2>
-							<hr class="hr-med">
-							<p class="body-content">Wild Yoga is the practice of connecting mind, body & breath with you
-								natural, uncultivated and uninhibited
-								spirit. A connection established through conscious movement and awareness. Grounding you
-								back into your true and most natural state.
-								We offer a range of classes to suit all levels from complete beginner to the advanced
-								student.
-								With Vinyasa Flows, Yoga for Strength, Mindful Movement, Yin Yoga, Teen and Kids Yoga - we
-								have something for everybody!
-							</p>
-						</div>
-					</div>
-					<!--Start of Offering Carosel: Code taken from Bootstrap V4 Components-->
-					<div id="carouselExampleControls" class="carousel slide carousel-off" data-ride="carousel">
-						<div class="carousel-inner rounded">
-							<div class="carousel-item active">
-								<img class="d-block w-100" src="assets/images/home/receptionPicquadio.jpg" alt="First slide" >
-							</div>
-							<div class="carousel-item">
-								<img class="d-block w-100" src="assets/images/home/sazonovaOne.jpg" alt="Second slide">
-							</div>
-							<div class="carousel-item">
-								<img class="d-block w-100" src="assets/images/home/showerPopa.jpg" alt="Third slide">
-							</div>
-							<div class="carousel-item">
-								<img class="d-block w-100" src="assets/images/home/sazonovaTwo.jpg" alt="Fourth slide">
-							</div>
-							<div class="carousel-item">
-								<img class="d-block w-100" src="assets/images/home/sazonovaThree.jpg" alt="Sixth slide">
-							</div>
-						</div>
-						<a class="carousel-control-prev" href="#carouselExampleControls"
-							role="button" data-slide="prev">
-						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						<span class="sr-only">Previous</span>
-						</a>
-						<a class="carousel-control-next" href="#carouselExampleControls"
-							role="button" data-slide="next">
-						<span class="carousel-control-next-icon" aria-hidden="true"></span>
-						<span class="sr-only">Next</span>
-						</a>
-					</div>
-					<!--Testimonials-->
-					<div class="row justify-content-center">
-						<div class="col-12">
-							<h2>Testimonials</h2>
-							<hr class="hr-med">
-						</div>
-					</div>
-					<div class="container-fluid">
-						<div class="row body-container">
-							<div class="col-sm-12 col-md-4 testimonial">
-								<img src="assets/images/home/femaleAvatar.png" alt="female-avatar" class="testimonial-imgs">
-							</div>
-							<div class="col-sm-12 col-md-8 testimonial-p rounded">
-								<h3>Nadine</h3>
-								<p>"I did a number of 1 on 1 yoga sessions with
-									Jane. Jane is super knowledgeable and
-									professional and catered the flows to the level I was
-									at. She creates a warm, welcoming and
-									supportive environment to learn about yoga practice
-									without pressure. She offers subtle corrections
-									and I always came out of the hour with a complete sense
-									of relaxation and achievement.
-									Would definitely recommend Jane to anyone looking to
-									begin yoga or someone years into their practice!"
-								</p>
-							</div>
-							<div class="col-sm-12 col-md-8 testimonial-p rounded">
-								<h3>Seamus</h3>
-								<p>"I loved my yoga sessions with
-									Jane, who is very warm friendly. It was nicely paced
-									flow Class.
-									Jane offered great instruction along with demonstrations
-									and adapted postures to my needs. Jane's classes have provided me
-									with
-									the right balance of challenge & learning with a
-									dash of spirituality. If you are looking to make some
-									positive changes
-									to your life and you are seeking tools to manage the
-									stresses of daily life consider attending one of these class
-									with Jane
-									to get you on the right path. You will no doubt enjoy as much as I
-									do. Thank you you Janey!"
-								</p>
-							</div>
-							<div class="col-sm-12 col-md-4 testimonial">
-								<img src="assets/images/home/maleAvatar.png" alt="male-avatar" class="testimonial-imgs">
+            </div>
+        </header>
+        <!--Start of Our Offering-->
+        <section id="Yoga-Studio-Offering">
+            <div class="container body-container">
+                <div class="container fluid">
+                    <div class="row justify-content-center">
+                        <div class="col-12">
+                            <h2>Our Offering</h2>
+                            <hr class="hr-med" />
+                            <p class="body-content">
+                                Wild Yoga is the practice of connecting mind, body & breath with you natural, uncultivated and uninhibited spirit. A connection established through conscious movement and awareness. Grounding you back into
+                                your true and most natural state. We offer a range of classes to suit all levels from complete beginner to the advanced student. With Vinyasa Flows, Yoga for Strength, Mindful Movement, Yin Yoga, Teen and
+                                Kids Yoga - we have something for everybody!
+                            </p>
+                        </div>
+                    </div>
+                    <!--Start of Offering Carosel: Code taken from Bootstrap V4 Components-->
+                    <div id="carouselExampleControls" class="carousel slide offering-carousel" data-ride="carousel">
+                        <div class="carousel-inner rounded">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="assets/images/home/receptionPicquadio.jpg" alt="First slide" />
                             </div>
-						</div>
-					</div>
-					<!--FAQs-->
-					<div class="row justify-content-center">
-						<div class="col-12">
-							<h2>FAQs</h2>
-							<hr class="hr-med">
-						</div>
-					</div>
-					<div class="container-fluid">
-						<div class="row body-container faqs rounded">
-							<div class="col-sm-12 col-md-4">
-								<h4 class="faqs-questions">What are the
-									Benefits of Yoga?
-								</h4>
-								<p class="faqs-p">Yoga reduces stress while improving
-									strength, flexibility and balance. A regular
-									practice has been linked to improved mood
-									and improved physical health, curing and aliviating
-									many physical ailments such as arthritus and back
-									pain in some instances.
-									Yoga for kids and adolescents can improve
-									concentration levels, stabilize emotional responces
-									and provide tools for managing
-									the challenges of everyday life.
-								</p>
-							</div>
-							<div class="col-sm-12 col-md-4">
-								<h4 class="faqs-questions">What are the
-									Types of Yoga Offered?
-								</h4>
-								<p class="faqs-p">Yoga has many lineages and we offer a
-									small sample of these.
-									Vinyasa yoga is an active practice where one posture
-									flows into the next.
-									Hatha Yoga has a flow but is focused on building
-									strength and is based mostly seated or lying on
-									the mat.
-									Yin and our Mindful Movement classes are slower
-									paced and have a focus on meditaion and restoring
-									your energy.
-									Childrens and Teen classes are a combination of all
-									our offerings with some games/songs for kids and
-									partner/team
-									yoga for our teens.
-								</p>
-							</div>
-							<div class="col-sm-12 col-md-4">
-								<h4 class="faqs-questions">What Should I
-									Wear to Class?
-								</h4>
-								<p class="faqs-p">We suggest loose or form fitting
-									clothing that is comfortable and allows a full range
-									of motion. Many women and men wear leggings
-									and vests/t-shirts, sometimes adding shorts over
-									their leggings. Bare in mind that some classes will
-									practice inversions (upside down postures)
-									and clothing will need to be suitable for this so
-									dresses and skirts are not advised. You are of
-									course welcome to sit out any postures you do not
-									feel like carrying out.
-								</p>
-							</div>
-						</div>
-					</div>
-					<!--Contact form-->
-					<section>
-						<div class="row justify-content-center">
-							<div class="col-12">
-								<h2 id="Contact-Us">Still Have Questions? Send us a
-									Message!
-								</h2>
-								<hr class="hr-med">
-								<div class="container-fluid">
-									<div class="row">
-										<div class="col-sm-12 form rounded">
-											<form id="contact-form">
-												<div class="form-group">
-													<input type="text" class="form-control" id="name" placeholder="Your Name" required>
-												</div>
-												<div class="form-group">
-													<input type="email" class="form-control" id="email_address" placeholder="Your Email Address" required>
-												</div>
-												<div class="form-group">
-													<textarea class="form-control" id="textarea1" placeholder="Ask your questions here" rows="6" required></textarea>
-												</div>
-												<div>
-													<input type="submit" value="Send It!" class="btn btn-light form-btn">
-												</div>
-											</form>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</section>
-				</div>
-			</div>
-		</section>
-		<!--Start of Footer /The Below is taken & modified from Matt Rudge UCD Resume Challenge-->
-		<footer class="container-fluid">
-			<div class="row">
-				<div class="col-sm-12 col-md-4" id="Contact-Details">
-					<h5 class="footer-head">Contact Details</h5>
-					<p class="footer">
-						<i class="fa fa-map-marker" aria-hidden="true"></i>
-						Level 3, The Old Mill, Pescara, Italy.
-					</p>
-					<p class="footer">
-						<i class="fa fa-envelope-o" aria-hidden="true"></i>
-						wildthingyoga@mail.com
-					</p>
-				</div>
-				<div class="col-sm-12 col-md-4">
-					<a href="index.html">
-					<img class="logo footer" src="assets/logo.png" alt="logo">
-					</a>
-				</div>
-				<div class="col-sm-12 col-md-4">
-					<h5 class="footer-head">Social Media</h5>
-					<p class="footer">Follow the Fun on Social Media!</p>
-					<ul class="social-btns">
-						<li>
-							<a href="https://www.facebook.com/wildthingyogawithjane/"
-								target="_blank">
-							<i class="fa fa-facebook" aria-hidden="true"></i>
-							</a>
-						</li>
-						<li>
-							<a href="https://www.instagram.com/wildthingyoga_withjane/"
-								target="_blank">
-							<i class="fa fa-instagram" aria-hidden="true"></i>
-							</a>
-						</li>
-						<li>
-							<a href="https://www.pinterest.ie/"
-								target="_blank">
-							<i class="fa fa-pinterest-p" aria-hidden="true"></i>
-							</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</footer>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="assets/images/home/sazonovaOne.jpg" alt="Second slide" />
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="assets/images/home/showerPopa.jpg" alt="Third slide" />
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="assets/images/home/sazonovaTwo.jpg" alt="Fourth slide" />
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="assets/images/home/sazonovaThree.jpg" alt="Sixth slide" />
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <!--Testimonials-->
+                    <div class="row justify-content-center">
+                        <div class="col-12">
+                            <h2>Testimonials</h2>
+                            <hr class="hr-med" />
+                        </div>
+                    </div>
+                    <div class="container-fluid">
+                        <div class="row body-container">
+                            <div class="col-sm-12 col-md-4 testimonial">
+                                <img src="assets/images/home/femaleAvatar.png" alt="female-avatar" class="testimonial-imgs" />
+                            </div>
+                            <div class="col-sm-12 col-md-8 testimonial-p rounded">
+                                <h3>Nadine</h3>
+                                <p>
+                                    "I did a number of 1 on 1 yoga sessions with Jane. Jane is super knowledgeable and professional and catered the flows to the level I was at. She creates a warm, welcoming and supportive environment to
+                                    learn about yoga practice without pressure. She offers subtle corrections and I always came out of the hour with a complete sense of relaxation and achievement. Would definitely recommend Jane to anyone
+                                    looking to begin yoga or someone years into their practice!"
+                                </p>
+                            </div>
+                            <div class="col-sm-12 col-md-8 testimonial-p rounded">
+                                <h3>Seamus</h3>
+                                <p>
+                                    "I loved my yoga sessions with Jane, who is very warm friendly. It was nicely paced flow Class. Jane offered great instruction along with demonstrations and adapted postures to my needs. Jane's classes
+                                    have provided me with the right balance of challenge & learning with a dash of spirituality. If you are looking to make some positive changes to your life and you are seeking tools to manage the stresses
+                                    of daily life consider attending one of these class with Jane to get you on the right path. You will no doubt enjoy as much as I do. Thank you you Janey!"
+                                </p>
+                            </div>
+                            <div class="col-sm-12 col-md-4 testimonial">
+                                <img src="assets/images/home/maleAvatar.png" alt="male-avatar" class="testimonial-imgs" />
+                            </div>
+                        </div>
+                    </div>
+                    <!--FAQs-->
+                    <div class="row justify-content-center">
+                        <div class="col-12">
+                            <h2>FAQs</h2>
+                            <hr class="hr-med" />
+                        </div>
+                    </div>
+                    <div class="container-fluid">
+                        <div class="row body-container faqs rounded">
+                            <div class="col-sm-12 col-md-4">
+                                <h4 class="faqs-questions">What are the Benefits of Yoga?</h4>
+                                <p class="faqs-p">
+                                    Yoga reduces stress while improving strength, flexibility and balance. A regular practice has been linked to improved mood and improved physical health, curing and aliviating many physical ailments such
+                                    as arthritus and back pain in some instances. Yoga for kids and adolescents can improve concentration levels, stabilize emotional responces and provide tools for managing the challenges of everyday life.
+                                </p>
+                            </div>
+                            <div class="col-sm-12 col-md-4">
+                                <h4 class="faqs-questions">What are the Types of Yoga Offered?</h4>
+                                <p class="faqs-p">
+                                    Yoga has many lineages and we offer a small sample of these. Vinyasa yoga is an active practice where one posture flows into the next. Hatha Yoga has a flow but is focused on building strength and is
+                                    based mostly seated or lying on the mat. Yin and our Mindful Movement classes are slower paced and have a focus on meditaion and restoring your energy. Childrens and Teen classes are a combination of all
+                                    our offerings with some games/songs for kids and partner/team yoga for our teens.
+                                </p>
+                            </div>
+                            <div class="col-sm-12 col-md-4">
+                                <h4 class="faqs-questions">What Should I Wear to Class?</h4>
+                                <p class="faqs-p">
+                                    We suggest loose or form fitting clothing that is comfortable and allows a full range of motion. Many women and men wear leggings and vests/t-shirts, sometimes adding shorts over their leggings. Bare in
+                                    mind that some classes will practice inversions (upside down postures) and clothing will need to be suitable for this so dresses and skirts are not advised. You are of course welcome to sit out any
+                                    postures you do not feel like carrying out.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Contact form-->
+                    <section>
+                        <div class="row justify-content-center">
+                            <div class="col-12">
+                                <h2 id="Contact-Us">Still Have Questions? Send us a Message!</h2>
+                                <hr class="hr-med" />
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-sm-12 form rounded">
+                                            <form id="contact-form">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" id="name" placeholder="Your Name" required />
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="email" class="form-control" id="email_address" placeholder="Your Email Address" required />
+                                                </div>
+                                                <div class="form-group">
+                                                    <textarea class="form-control" id="textarea1" placeholder="Ask your questions here" rows="6" required></textarea>
+                                                </div>
+                                                <div>
+                                                    <input type="submit" value="Send It!" class="btn btn-light form-btn" />
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+        <!--Start of Footer /The Below is taken & modified from Matt Rudge UCD Resume Challenge-->
+        <footer class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 col-md-4" id="Contact-Details">
+                    <h5 class="footer-head">Contact Details</h5>
+                    <p class="footer">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        Level 3, The Old Mill, Pescara, Italy.
+                    </p>
+                    <p class="footer">
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        wildthingyoga@mail.com
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <a href="index.html">
+                        <img class="logo footer" src="assets/logo.png" alt="logo" />
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <h5 class="footer-head">Social Media</h5>
+                    <p class="footer">Follow the Fun on Social Media!</p>
+                    <ul class="social-btns">
+                        <li>
+                            <a href="https://www.facebook.com/wildthingyogawithjane/" target="_blank">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/wildthingyoga_withjane/" target="_blank">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.pinterest.ie/" target="_blank">
+                                <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
         <!--The below code is taken from Code Institute Whiskey Drop Challenge-->
-		<script
-        src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"
-        ></script>
-        <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-        crossorigin="anonymous"
-        ></script>
-	</body>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    </body>
 </html>
