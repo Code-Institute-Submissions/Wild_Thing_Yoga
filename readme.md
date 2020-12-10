@@ -227,7 +227,7 @@ and [W3c Jigsaw](https://jigsaw.w3.org/css-validator/) for CSS.
 #### Funtionality and Features
 <img src="assets/images/readme/features-table.png">
 
-#### User Stoties Test 
+#### User Stories Test 
 <img src="assets/images/readme/user-stories-table.png">
 
 #### Strategic Purpose Test
