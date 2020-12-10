@@ -14,7 +14,7 @@ December 2020.</p>
 
 2. [User Experience Design](#user-experience-design)
    * [User Stories](#user-stories)
-        * [First Time & Returning Visitor Goals](#First-&-Returning-Visitor-Goals)
+        * [First Time and Returning Visitor Goals](#First-and-Returning-Visitor-Goals)
     *  [Design](#design)
         * [Structure](#structure)
         * [Wireframes](#Wireframes)
@@ -30,7 +30,7 @@ December 2020.</p>
     * [Languages](#languages)
         * HTML
         * CSS
-    * [Frameworks Libraries & Programmes](#Frameworks-Libraries-&-Programmes)
+    * [Frameworks Libraries and Programmes](#Frameworks-Libraries-and-Programmes)
         * GitHub
         * Git/GitPod
         * Bootstrap v4
@@ -51,10 +51,10 @@ December 2020.</p>
     * [Making a Clone in GitPod](#Making-a-Clone-in-GitPod)
 
 6. [Testing](#testing)
-    * [Funtionality & Features across Browsers](#Funtionality-&-Features-across-Browsers)
+    * [Funtionality and Features across Browsers](#Funtionality-and-Features-across-Browsers)
     * [User Stoies](#User-Stoies)
     * [Strategic Purpose](#Strategic-Purpose)
-    * [Main Bugs & Fixes](#Main-Bugs-&-Fixes)
+    * [Main Bugs and Fixes](#Main-Bugs-and-Fixes)
     * [Testing Limitations](#Testing-Limitations)
 
 7. [Credits](#credits)
@@ -88,7 +88,7 @@ The live site can be found <a href="https://janeyrinn.github.io/Wild_Thing_Yoga/
 ## User Experience Design
 
 ### User Stories
-#### First Time & Returning Visitor Goals
+#### First Time and Returning Visitor Goals
 >- Easily understands the main purpose and navigation pathways of the site
 >- Information is clearly presented and easily absorbed with minimal effort
 >- Features load quickly, are adapted to my device, my needs and supported by my browser
