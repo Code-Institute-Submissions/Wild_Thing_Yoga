@@ -23,10 +23,10 @@ December 2020.</p>
     * [Forking a Repository to your GitHub Account](#Forking-a-Repository-to-your-GitHub-Account)
     * [Making a Clone in GitPod](#Making-a-Clone-in-GitPod)
 6. [Testing](#testing)
-    * [Funtionality and Features across Browsers](#Funtionality-and-Features-across-Browsers)
-    * [User Stoies](#User-Stoies)
-    * [Strategic Purpose](#Strategic-Purpose)
-    * [Main Bugs and Fixes](#Main-Bugs-and-Fixes)
+    * [Funtionality and Features](#Funtionality-and-Features)
+    * [User Stoies Test](#User-Stoies-Test)
+    * [Strategic Purpose Test](#Strategic-Purpose-Test)
+    * [Bugs and Fixes](#Bugs-and-Fixes)
     * [Testing Limitations](#Testing-Limitations)
 7. [Credits](#credits)
     * [Images](#Images)
@@ -224,7 +224,7 @@ Screen schots of all results are below.
 HTML and CSS  semantics and validity was tested through out with [W3C](https://validator.w3.org/) for HTML
 and [W3c Jigsaw](https://jigsaw.w3.org/css-validator/) for CSS.
 
-#### Funtionality & Features across Browsers
+#### Funtionality and Features
 <img src="assets/images/readme/features-table.png">
 
 #### User Stoies 
@@ -233,7 +233,7 @@ and [W3c Jigsaw](https://jigsaw.w3.org/css-validator/) for CSS.
 #### Strategic Purpose
 <img src="assets/images/readme/strategic-purpose-table.png">
 
-##### Main Bugs & Fixes
+##### Bugs and Fixes
 
 - Jumbotron sizing issues : The jumbotron and booking button were not responsive on different screen sizes.
 This was combatted with reducing the font size of the "h1" element and targeted @MediaQueries. The font size increases for screens
