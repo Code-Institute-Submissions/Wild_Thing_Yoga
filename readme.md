@@ -24,7 +24,7 @@ December 2020.</p>
     * [Making a Clone in GitPod](#Making-a-Clone-in-GitPod)
 6. [Testing](#testing)
     * [Funtionality and Features](#Funtionality-and-Features)
-    * [User Stoies Test](#User-Stoies-Test)
+    * [User Stories Test](#User-Stories-Test)
     * [Strategic Purpose Test](#Strategic-Purpose-Test)
     * [Bugs and Fixes](#Bugs-and-Fixes)
     * [Testing Limitations](#Testing-Limitations)
@@ -227,10 +227,10 @@ and [W3c Jigsaw](https://jigsaw.w3.org/css-validator/) for CSS.
 #### Funtionality and Features
 <img src="assets/images/readme/features-table.png">
 
-#### User Stoies 
+#### User Stoties Test 
 <img src="assets/images/readme/user-stories-table.png">
 
-#### Strategic Purpose
+#### Strategic Purpose Test
 <img src="assets/images/readme/strategic-purpose-table.png">
 
 ##### Bugs and Fixes
