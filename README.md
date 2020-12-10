@@ -81,7 +81,7 @@ Creating a positive user experience for customers that they will return to again
 
 ### Design Simulation
 <img src="assets/images/readMe/designSimulation.PNG" alt="Am I Responsive Design Simulation">
-The live site can be found <a href="https://janeyrinn.github.io/Wild_Thing_Yoga/">Here</a>
+The live site can be found <a href="https://janeyrinn.github.io/Wild_Thing_Yoga/">here</a>
 
 
 ## User Experience Design
