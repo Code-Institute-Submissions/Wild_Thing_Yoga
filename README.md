@@ -1,20 +1,13 @@
-<!DOCTYPE html>
-<html lang="en-US">
-
 <h1>Wild Thing Yoga<br></h1>
 <img src="assets/images/readMe/readMeLogo.PNG" height="100" width="100" alt="logo">
-
-
 <p>Code Institute, Diploma in Full Stack Software Development Milestone Project 1, 
 December 2020.</p>
 
 # Table of Contents 
 1. [Strategic Purpose](#strategic-purpose)
     * [Design Simulation](#design-simulation)
-
 2. [User Experience Design](#user-experience-design)
    * [User Stories](#user-stories)
-        * First Time and Returning Visitor Goals
     *  [Design](#design)
         * [Structure](#structure)
         * [Wireframes](#Wireframes)
@@ -23,23 +16,18 @@ December 2020.</p>
         * [Imagery](#imagery)
         * [Design Limitations](#design-limitations)
         * [Design Differences](#design-differences)
-
 3. [Features](#features)
-
 4. [Technologies](#technologies)
-
 5. [Deployment](#deployment)
     * [Deployment via GitHub Pages](#Deployment-via-GitHub-Pages)
     * [Forking a Repository to your GitHub Account](#Forking-a-Repository-to-your-GitHub-Account)
     * [Making a Clone in GitPod](#Making-a-Clone-in-GitPod)
-
 6. [Testing](#testing)
     * [Funtionality and Features across Browsers](#Funtionality-and-Features-across-Browsers)
     * [User Stoies](#User-Stoies)
     * [Strategic Purpose](#Strategic-Purpose)
     * [Main Bugs and Fixes](#Main-Bugs-and-Fixes)
     * [Testing Limitations](#Testing-Limitations)
-
 7. [Credits](#credits)
     * [Images](#Images)
     * [Content](#Content)
@@ -67,7 +55,6 @@ Creating a positive user experience for customers that they will return to again
 <img src="assets/images/readMe/designSimulation.PNG" alt="Am I Responsive Design Simulation">
 The live site can be found <a href="https://janeyrinn.github.io/Wild_Thing_Yoga/" target="_blank">here</a>
 
-
 ## User Experience Design
 
 ### User Stories
@@ -80,7 +67,6 @@ media or through testimonials to determine whether they are trustworthy and of v
 >- Easily learn of upcoming classes and book those classes
 >- Access contact information/contact the organization
 >- Avail of free resources
-
 
 ### Design
 #### Structure
