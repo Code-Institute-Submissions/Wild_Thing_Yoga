@@ -20,7 +20,6 @@ December 2020.</p>
 4. [Technologies](#technologies)
 5. [Deployment](#deployment)
     * [Deployment via GitHub Pages](#Deployment-via-GitHub-Pages)
-    * [Forking a Repository to your GitHub Account](#Forking-a-Repository-to-your-GitHub-Account)
     * [Making a Clone in GitPod](#Making-a-Clone-in-GitPod)
 6. [Testing](#testing)
     * [Funtionality and Features](#Funtionality-and-Features)
@@ -238,16 +237,6 @@ publishing source you wish to use. <b>Main</b> is recommened. <br><img src="asse
 5. Select <b>Save</b> and refresh the page. 
 6. Your published address will appear in a green highlighted container above <b>Source</b>.
 7. Click the link to test it works.
-
-#### Forking a Repository to your GitHub Account
-
-Forking the <em>Repo</em> will allow you to duplicate the repository in your own GitHub
-account from here you can update and make changes without affecting the original.
-
-1. Select the <b>Repository</b> you wish to fork.
-2. On the top right of the screen uder the Navigation click the Fork symbol<br> <img src="assets/images/readme/fork.png" height="30" alt="fork-image">.
-3. The <em>Repo</em> should now appear in your GitHub account repository directory.
-4. Select the green <b>Gitpod</b> button in the <em>Repo</em> to open a workspace and make changes.
 
 #### Making a Clone in GitPod
 1. Select the <em>Repo</em> you wish to clone in GitHub.
