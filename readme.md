@@ -151,6 +151,9 @@ The footer in the wireframes is a little different from execution but the concep
         - Each page will have a hero image.<br>
         - Each page will have a navigation header<br>
         - Each page will have a footer. <br>
+        - Each page will have a favicon on the browser tab.<br>
+        - Each page will have a favicon on the browser tab.<br>
+        - All links to external sources will open in a new tab.<br>
  5. Each page will have a 'sticky' nav bar.<br>
         - Navbar will be white with black text.<br>
         - The nav bar will have a circular logo on the left, a brand statement adjacent to the logo and menu options to the right.<br>
@@ -166,11 +169,11 @@ The footer in the wireframes is a little different from execution but the concep
         - A statement of the company offering.<br>
         - A carousel of images of classes and studio features.<br>
         - A testimonial section(blue with white text) with avatars (on a beige background).<br>
-        - A FAQs section.<br>
+        - A FAQs section (beige).<br>
         - A Contact form.<br>
 7. The Schedule & Pricing page will have: <br>
         - Informative text on costs and classses.<br>
-        - A table (blue & beige, black text) displaying price plans <br>
+        - A table (blue & beige, black text) displaying price plans. <br>
         - The table will scroll horizontally on small screens.<br>
         - A schedule with a background image and white text.<br>
         - A booking form.<br>
@@ -204,8 +207,6 @@ The footer in the wireframes is a little different from execution but the concep
         - The logo will link back to the home page.<br>
         - There will be links to social media on the right.<br>
         - The social media links will change from white to black with a white circular background on hover.<br>
-12. All links to external sources will open in a new tab.<br>
-13. Each page will have a favicon on the browser tab.<br>
 
  ## Technologies
 
