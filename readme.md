@@ -58,14 +58,22 @@ The live site can be found <a href="https://janeyrinn.github.io/Wild_Thing_Yoga/
 
 ### User Stories
 #### First Time and Returning Visitor Goals
->- Easily understands the main purpose and navigation pathways of the site
->- Information is clearly presented and easily absorbed with minimal effort
->- Features load quickly, are adapted to my device, my needs and supported by my browser
->- I can learn more about the offering and their interaction with others via social
-media or through testimonials to determine whether they are trustworthy and of value to me
->- Easily learn of upcoming classes and book those classes
->- Access contact information/contact the organization
->- Avail of free resources
+
+As a user I would like to : 
+>- easily understands the main purpose and navigation pathways of the site.
+>- find information is clearly presented and easily absorbed with minimal effort.
+>- find that features load quickly.
+>- find that features are adapted to my devices screen size.
+>- learn more about the companys offering.
+>- learn about their interaction with others via social media. 
+>- learn about their service quality through testimonials.
+>- easily learn of upcoming classes 
+>- learn about price of their services/classes
+>- book classes
+>- access contact information
+>- find their location
+>- contact the organization
+>- avail of free resources
 
 ### Design
 #### Structure
