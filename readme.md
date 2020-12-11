@@ -128,7 +128,7 @@ by myself or from open sources,  please see [<em>credits</em>](#credits) for a l
 #### Design Limitations
 A fourth and fifth page for a members log in and merchandise/equipment shop
 will be implimented in the future but was not possible due to time constraints. The forms
-are not functioning for the business at present and do not have <method="POST"> or <action=""> included as there is no where to "post" to yet. 
+are not functioning for the business at present and do not have method="POST" or "action=" included as there is no where to "post" to yet. 
 This is due to the mechanisms of that feature being outside the scope of the project.
 
 #### Design Differences
@@ -136,20 +136,68 @@ An additional table was added to the Pricing & Schedule page after the wireframe
 The footer in the wireframes is a little different from execution but the concept and desired function is ultimately the same.
 
 ## Features
- - Responsive on all devices.
- - Supported by Chrome, Microsoft Edge and Firefox browsers.
- - Interactive Elements : Navbar, Forms, Buttons, Video's.
- - Adapted for users with special accessibility requirements where possible
- - The Navbar will be sticky to allow ease of naviagtion for the user at all times.
- - The Nabar on mobile devices and smaller screens will display in a drop down.
- - The business logo will act as a link back to the home page.
- - The home page hero image will have a link to the booking form, to speed up navigation for users. 
- - Forms will have manditory fields 
- - There will be a seperate booking and contact form as class date and class type need to
- be mandatory fields to ensure a clean booking experience and to reduce administration on the
-  business side.
- - The footer will have links to the businesses social media.
- - All external links will open in a new browser window.
+ 1. Responsive to different screen sizes.
+ 2. Supported by Chrome, Microsoft Edge and Firefox browsers.
+ 3. Adapted for users with special accessibility requirements where possible.
+ 4. There will be three pages: Home page, Schedule & Pricing page and a Free Resources page.<br>
+        - Each page will have a hero image.<br>
+        - Each page will have a navigation header<br>
+        - Each page will have a footer. <br>
+ 5. Each page will have a 'sticky' nav bar.<br>
+        - Navbar will be white with black text.<br>
+        - The nav bar will have a circular logo on the left, a brand statement adjacent to the logo and menu options to the right.<br>
+        - The logo and brand statement will always link to the home page when clicked.<br>
+        - The active page will be emphasized with a heavier font weight in the nav menu, inactive pages will have a lighter font weight.<br>
+        - Menu items will underline from center when hovered over.<br>
+        - On mobile devices the menu items will switch to a toggle button and a dropdown. <br>
+        - The menu items will have the same styling in the drop down.<br>
+        - On mobile devices the brand statement will shrink or dissapear on small screens.<br>
+ 6. The home page will have:<br>
+        - A call to action in the hero image.<br>
+        - A button in the call to actio that links to the booking form.<br>
+        - A statement of the company offering.<br>
+        - A carousel of images of classes and studio features.<br>
+        - A testimonial section(blue with white text) with avatars (on a beige background).<br>
+        - A FAQs section.<br>
+        - A Contact form.<br>
+7. The Schedule & Pricing page will have: <br>
+        - Informative text on costs and classses.<br>
+        - A table (blue & beige, black text) displaying price plans <br>
+        - The table will scroll horizontally on small screens.<br>
+        - A schedule with a background image and white text.<br>
+        - A booking form.<br>
+8. The free resources page will have:<br>
+        - Two embedded video's with descriptive text and links to the creater on the right.<br>
+        - Video's will have controls to play and stop, no auto play.<br>
+        - Video's will expand to full screen on small devices.<br>
+        - A snippet of an article with a button linked to the original location.<br>
+        - The article will be in a green container with the text in black on a white background.<br>
+        - There will be a scroll bar on the right.<br>
+9. The Contact Form wil have:<br>
+        - The form will be grey with white fields and white button.<br>
+        - A name, email and text area input.<br>
+        - All inputs will be mandatory and display an error message if a field is missing on submission.<br>
+        - The border wil be black and of a 1-2px weight when hovered over.<br>
+        - The submission button will have a Send it! value.<br>
+        - The button will be green with white text on hover.<br>
+10. The Booking Form:<br>
+        - The form will be grey with white fields.<br>
+        - There will be a name, email, contact number and text area fields<br>
+        - There will be a date selector field.<br>
+        - There will be radio buttons to select classes.<br>
+        - The border wil be black and of a 1-2px weight when hovered over.<br>
+        - The submission button will have a Book! value.<br>
+        - The button & date will be green with white text on hover.<br>
+11. The footer will have:
+        - The footer will be blue with 3 column like sections<br>
+        - The footer text will be white with a text shadow.<br>
+        - The footer will have contact information on the left.<br>
+        - The footer will have a round logo in the center.<br>
+        - The logo will link back to the home page.<br>
+        - There will be links to social media on the right.<br>
+        - The social media links will change from white to black with a white circular background on hover.<br>
+12. All links to external sources will open in a new tab.<br>
+13. Each page will have a favicon on the browser tab.<br>
 
  ## Technologies
 
