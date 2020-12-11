@@ -65,15 +65,16 @@ As a user I would like to :
 >- find that features load quickly.
 >- find that features are adapted to my devices screen size.
 >- learn more about the companys offering.
+>- have basic questions I may have answered without having to contact the organization.
 >- learn about their interaction with others via social media. 
 >- learn about their service quality through testimonials.
->- easily learn of upcoming classes 
->- learn about price of their services/classes
->- book classes
->- access contact information
->- find their location
->- contact the organization
->- avail of free resources
+>- easily learn of upcoming classes.
+>- learn about price of their classes.
+>- book classes.
+>- access contact information.
+>- find their location.
+>- contact the organization.
+>- avail of free resources.
 
 ### Design
 #### Structure
