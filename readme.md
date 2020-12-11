@@ -260,9 +260,9 @@ into the console and hit enter.
 
 ## Testing
 
-Testing is will be carried out under two premises : User Stories and the Business Strategic purpose.
-As it is a static website the focus will be on funtionality of the links, value of the content,
-responsiveness and visual design.
+Testing is will be carried out under three premises : User Stories,the Businesses Strategic purpose and features.
+
+Testing will be for 3 browsers : Chrome v87, Microsoft Edge v87 & Mozilla Firefox v83.
 
 Testing was documented using Microsoft Excel and the full spreadsheet can be found [here](/assets/testing.xlsx).
 Screen schots of all results are below.
