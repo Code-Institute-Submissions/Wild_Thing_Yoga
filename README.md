@@ -1,4 +1,4 @@
-#Wild Thing Yoga
+# Wild Thing Yoga
 
 ![Logo](assets/images/readme/readmelogo.png)
 
