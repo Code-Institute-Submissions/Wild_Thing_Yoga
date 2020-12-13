@@ -301,15 +301,15 @@ HTML and CSS  semantics and validity was tested through out with [W3C](https://v
 and [W3c Jigsaw](https://jigsaw.w3.org/css-validator/) for CSS.
 
 #### Funtionality and Features
-<img src="assets/images/readme/features-table.png">
+<img src="assets/images/readme/features-table.png" alt="test-table">
 
 #### User Stories Test 
-<img src="assets/images/readme/user-stories-table.png">
+<img src="assets/images/readme/user-stories-table.png" alt="test-table">
 
 #### Strategic Purpose Test
-<img src="assets/images/readme/strategic-purpose-table.png">
+<img src="assets/images/readme/strategic-purpose-table.png" alt="test-table">
 
-##### Bugs and Fixes
+#### Bugs and Fixes
 
 - Jumbotron sizing issues : The jumbotron and booking button were not responsive on different screen sizes.
 This was combatted with reducing the font size of the "h1" element and targeted @MediaQueries. The font size increases for screens
@@ -327,7 +327,7 @@ to include the website name to show the correct location in the public site.
 - Footer display: the font in the footer wasn't as strong and easily read as I had hoped and this was combatted by adding a
 text shadow.
 
-##### Testing Limitations
+#### Testing Limitations
 Testing was limited to the three browsers mentioned above, although I had wished to have the site function on Safari
 as it is a popular browser I could not. I do not own an Apple Mac or Tablet and you can no longer download Safari for Windows.I reached out to colleagues
 and friends to assist with Safari testing but I am not confident to include the results for the purpose of the MS1. 
