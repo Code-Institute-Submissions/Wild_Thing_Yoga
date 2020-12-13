@@ -261,9 +261,38 @@ into the console and hit enter.
 
 ## Testing
 
-Testing is will be carried out under three premises : User Stories,the Businesses Strategic purpose and features.
+Testing is will be carried out under three premises : User Stories,the Businesses Strategic purpose and Features.
 
-Testing will be for 3 browsers : Chrome v87, Microsoft Edge v87 & Mozilla Firefox v83.
+Testing will be for 3 browsers; Chrome v87, Microsoft Edge v87 & Mozilla Firefox v83 on the following screen sizes:
+
+> <b>Chrome & Microsoft Edge</b>
+> - Moto G4 (640 x 360)
+> - Galaxy S5 (360 x 640)
+> - Pixel 2 (411 x 731)
+> - Pixel 2 XL (411 x 823)
+> - iPhone 5/SE (320 x 568)
+> - iPhone 6/7/8 (375 x 667)
+> - iPhone 6/7/8 Plus (414 x 736)
+> - iPhone X (375 x 812)
+> - iPad (768 x 1024)
+> - iPad Pro (1024 x 1366)
+> - Surface Duo (540 x 720)
+> - Galaxy Fold (280 x 653)
+
+> <b>Mozilla Fire Fox</b>
+> - Galaxy Note 3 (360 x 640)
+> - Galaxy Note 9 (414 x 846)
+> - Galaxy S5 (360 x 640)
+> - Galaxy S9 (360 x 740)
+> - iPad (768 x 1024)
+> - iPad Pro (1024 x 1366)
+> - iPhone 5/SE (320 x 568)
+> - iPhone 6/7/8 (375 x 667)
+> - iPhone 6/7/8 Plus (414 x 736)
+> - iPhone X/XS (375 x 812)
+> - i Phone XR (414 x 896)
+> - Laptop (1440 x 900)
+
 
 Testing was documented using Microsoft Excel and the full spreadsheet can be found [here](/assets/testing.xlsx).
 Screen schots of all results are below.
