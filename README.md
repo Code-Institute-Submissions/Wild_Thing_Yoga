@@ -1,7 +1,9 @@
-<h1>Wild Thing Yoga<br></h1>
-<img src="assets/images/readme/readmelogo.png" height="100" width="100" alt="logo">
-<p>Code Institute, Diploma in Full Stack Software Development Milestone Project 1, 
-December 2020.</p>
+#Wild Thing Yoga
+
+![Logo](assets/images/readme/readmelogo.png)
+
+Code Institute, Diploma in Full Stack Software Development Milestone Project 1, 
+December 2020.
 
 # Table of Contents 
 1. [Strategic Purpose](#strategic-purpose)
@@ -18,15 +20,15 @@ December 2020.</p>
         * [Design Differences](#design-differences)
 3. [Features](#features)
 4. [Technologies](#technologies)
-5. [Deployment](#deployment)
-    * [Deployment via GitHub Pages](#Deployment-via-GitHub-Pages)
-    * [Making a Clone in GitPod](#Making-a-Clone-in-GitPod)
-6. [Testing](#testing)
+5. [Testing](#testing)
     * [Funtionality and Features](#Funtionality-and-Features)
     * [User Stories Test](#User-Stories-Test)
     * [Strategic Purpose Test](#Strategic-Purpose-Test)
     * [Bugs and Fixes](#Bugs-and-Fixes)
     * [Testing Limitations](#Testing-Limitations)
+6. [Deployment](#deployment)
+    * [Deployment via GitHub Pages](#Deployment-via-GitHub-Pages)
+    * [Making a Clone in GitPod](#Making-a-Clone-in-GitPod)
 7. [Credits](#credits)
     * [Images](#Images)
     * [Content](#Content)
@@ -47,12 +49,13 @@ on correspondance for the business, regarding frequently asked questions and err
 or lack of information. 
 
 Content should be clear, informative and adapted for screen readers so it is accessible for all.
-The site is to be responsive on all devices, while being easy and enjoyable to navigate through. 
+The site is to be responsive on many devices, while being easy and enjoyable to navigate through. 
 Creating a positive user experience for customers that they will return to again and again.
 
 ### Design Simulation
-<img src="assets/images/readme/designsimulation.png" alt="Am I Responsive Design Simulation">
-The live site can be found <a href="https://janeyrinn.github.io/Wild_Thing_Yoga/" target="_blank">here</a>
+![Design Simulation](assets/images/readme/designsimulation.png)
+
+The live site can be found [here](https://janeyrinn.github.io/Wild_Thing_Yoga/)
 
 ## User Experience Design
 
@@ -95,12 +98,12 @@ A mock up of how the site will be layed out is available here via [Wire Frames](
 
 #### Color Scheme
 
-<img src="assets/images/readme/swatch.png" alt="color-swatch">
+![Color Swatch](assets/images/readme/swatch.png)
 
 The above color swatch shows a guide line for the color scheme of the site, 
 black and white will also be incorporated.
 Colors are brand colors which have been adopted for the following reasons:
-<br>
+
 
 Color | Consumer Association
 ------|---------------------
@@ -114,13 +117,13 @@ Grey  | Neutral, balance
 All colours tie together to make the appropriate emotional responce
 and associations the brands identifies with their business, yoga 
 and a yoga practice. The colours also combine for effective and an easy to 
-read layout. <br>
+read layout.
 
-<em>Please see [credits](#Credits) section for links to color psychology sources.</em>
+_Please see [credits](#Credits) section for links to color psychology sources_
 
 #### Typography
 
-The Dancing Script font, created by [<em>Pablo Impallari</em>](https://fonts.google.com/specimen/Dancing+Script?query=dancing#about) will be the main font for
+The Dancing Script font, created by [_Pablo Impallari_](https://fonts.google.com/specimen/Dancing+Script?query=dancing#about) will be the main font for
 the company name and headings, Raleway which is hosted on google fonts also, by multiple creators,
 will be the secondary font used for the body of text. Sans Serif will be the fallback font
 if for any reason the main fonts are not being imported or displayed correctly. 
@@ -129,9 +132,9 @@ profesionalism.
 
 #### Imagery
 Branding is an important marketing tool so a logo has been developed using 
-[<em>Canva.com</em>](https://www.canva.com/),
+[_Canva.com_](https://www.canva.com/),
 this logo will feature throughout the website. Images will be supplied
-by myself or from open sources,  please see [<em>credits</em>](#credits) for a list of sources and photographers.
+by myself or from open sources,  please see [_credits_](#credits) for a list of sources and photographers.
 
 #### Design Limitations
 A fourth and fifth page for a members log in and merchandise/equipment shop
@@ -147,66 +150,74 @@ The footer in the wireframes is a little different from execution but the concep
  1. Responsive to different screen sizes.
  2. Supported by Chrome, Microsoft Edge and Firefox browsers.
  3. Adapted for users with special accessibility requirements where possible.
- 4. There will be three pages: Home page, Schedule & Pricing page and a Free Resources page.<br>
-        - Each page will have a hero image.<br>
-        - Each page will have a navigation header<br>
-        - Each page will have a footer. <br>
-        - Each page will have a favicon on the browser tab.<br>
-        - Each page will have a favicon on the browser tab.<br>
-        - All links to external sources will open in a new tab.<br>
- 5. Each page will have a 'sticky' nav bar.<br>
+ 4. There will be three pages: Home page, Schedule & Pricing page and a Free Resources page.
+
+        - Each page will have a hero image.
+        - Each page will have a navigation header.
+        - Each page will have a footer.
+        - Each page will have a favicon on the browser tab.
+        - Each page will have a favicon on the browser tab.
+        - All links to external sources will open in a new tab.
+ 5. Each page will have a 'sticky' nav bar.
+
         - Navbar will be white with black text.<br>
-        - The nav bar will have a circular logo on the left, a brand statement adjacent to the logo and menu options to the right.<br>
-        - The logo and brand statement will always link to the home page when clicked.<br>
-        - The active page will be emphasized with a heavier font weight in the nav menu, inactive pages will have a lighter font weight.<br>
-        - Menu items will underline from center when hovered over.<br>
-        - On mobile devices the menu items will switch to a toggle button and a dropdown. <br>
-        - The menu items will have the same styling in the drop down.<br>
-        - On mobile devices the brand statement will shrink or dissapear on small screens.<br>
- 6. The home page will have:<br>
-        - A call to action in the hero image.<br>
-        - A button in the call to actio that links to the booking form.<br>
-        - A statement of the company offering.<br>
-        - A carousel of images of classes and studio features.<br>
-        - A testimonial section(blue with white text) with avatars (on a beige background).<br>
-        - A FAQs section (beige).<br>
-        - A Contact form.<br>
-7. The Schedule & Pricing page will have: <br>
-        - Informative text on costs and classses.<br>
-        - A table (blue & beige, black text) displaying price plans. <br>
-        - The table will scroll horizontally on small screens.<br>
-        - A schedule with a background image and white text.<br>
-        - A booking form.<br>
-8. The free resources page will have:<br>
-        - Two embedded video's with descriptive text and links to the creater on the right.<br>
-        - Video's will have controls to play and stop, no auto play.<br>
-        - Video's will expand to full screen on small devices.<br>
-        - A snippet of an article with a button linked to the original location.<br>
-        - The article will be in a green container with the text in black on a white background.<br>
-        - There will be a scroll bar on the right.<br>
-9. The Contact Form wil have:<br>
-        - The form will be grey with white fields and white button.<br>
-        - A name, email and text area input.<br>
-        - All inputs will be mandatory and display an error message if a field is missing on submission.<br>
-        - The border wil be black and of a 1-2px weight when hovered over.<br>
-        - The submission button will have a Send it! value.<br>
-        - The button will be green with white text on hover.<br>
-10. The Booking Form:<br>
-        - The form will be grey with white fields.<br>
-        - There will be a name, email, contact number and text area fields<br>
-        - There will be a date selector field.<br>
-        - There will be radio buttons to select classes.<br>
-        - The border wil be black and of a 1-2px weight when hovered over.<br>
-        - The submission button will have a Book! value.<br>
-        - The button & date will be green with white text on hover.<br>
+        - The nav bar will have a circular logo on the left, a brand statement adjacent to the logo and menu options to the right.
+        - The logo and brand statement will always link to the home page when clicked.
+        - The active page will be emphasized with a heavier font weight in the nav menu, inactive pages will have a lighter font weight.
+        - Menu items will underline from center when hovered over.
+        - On mobile devices the menu items will switch to a toggle button and a dropdown.
+        - The menu items will have the same styling in the drop down.
+        - On mobile devices the brand statement will shrink or dissapear on small screens.
+ 6. The home page will have:
+
+        - A call to action in the hero image.
+        - A button in the call to actio that links to the booking form.
+        - A statement of the company offering.
+        - A carousel of images of classes and studio features.
+        - A testimonial section(blue with white text) with avatars (on a beige background).
+        - A FAQs section (beige).
+        - A Contact form.
+7. The Schedule & Pricing page will have:
+
+        - Informative text on costs and classses.
+        - A table (blue & beige, black text) displaying price plans.
+        - The table will scroll horizontally on small screens.
+        - A schedule with a background image and white text.
+        - A booking form.
+8. The free resources page will have:
+
+        - Two embedded video's with descriptive text and links to the creater on the right.
+        - Video's will have controls to play and stop, no auto play.
+        - Video's will expand to full screen on small devices.
+        - A snippet of an article with a button linked to the original location.
+        - The article will be in a green container with the text in black on a white background.
+        - There will be a scroll bar on the right.
+9. The Contact Form wil have:
+
+        - The form will be grey with white fields and white button.
+        - A name, email and text area input.
+        - All inputs will be mandatory and display an error message if a field is missing on submission.
+        - The border wil be black and of a 1-2px weight when hovered over.
+        - The submission button will have a Send it! value.
+        - The button will be green with white text on hover.
+10. The Booking Form:
+
+        - The form will be grey with white fields.
+        - There will be a name, email, contact number and text area fields.
+        - There will be a date selector field.
+        - There will be radio buttons to select classes.
+        - The border wil be black and of a 1-2px weight when hovered over.
+        - The submission button will have a Book! value.
+        - The button & date will be green with white text on hover.
 11. The footer will have:
-        - The footer will be blue with 3 column like sections<br>
-        - The footer text will be white with a text shadow.<br>
-        - The footer will have contact information on the left.<br>
-        - The footer will have a round logo in the center.<br>
-        - The logo will link back to the home page.<br>
-        - There will be links to social media on the right.<br>
-        - The social media links will change from white to black with a white circular background on hover.<br>
+
+        - The footer will be blue with 3 column like sections
+        - The footer text will be white with a text shadow.
+        - The footer will have contact information on the left.
+        - The footer will have a round logo in the center.
+        - The logo will link back to the home page.
+        - There will be links to social media on the right.
+        - The social media links will change from white to black with a white circular background on hover.
 
  ## Technologies
 
@@ -234,38 +245,13 @@ The footer in the wireframes is a little different from execution but the concep
   13. [W3C](https://validator.w3.org/) used to validate HTML code.
   14. [W3c Jigsaw](https://jigsaw.w3.org/css-validator/) used to validate CSS code.
 
-## Deployment
-
-#### Deployment via GitHub Pages
-
-1. Select the <b>Repository</b> you wish to deploy.
-2. Under the <em>"Repo"</em> name on the top left of the screen
-there is a menu,<br><img src="assets/images/readme/depone.png" height="30" width="200" alt="menu-image"> select the settings tab on this menu.
-3. Scroll down to the <b>GitHub Pages</b> section.
-4. Under <b>Source</b> use the <b>None or Branch</b> drop down menu to select the 
-publishing source you wish to use. <b>Main</b> is recommened. <br><img src="assets/images/readme/deptwo.png" height="55" width="220" alt="source-image"><br>
-5. Select <b>Save</b> and refresh the page. 
-6. Your published address will appear in a green highlighted container above <b>Source</b>.
-7. Click the link to test it works.
-
-#### Making a Clone in GitPod
-1. Select the <em>Repo</em> you wish to clone in GitHub.
-2. Click on the Code dropdown button. <br> <img src="assets/images/readme/depthree.png" height="35" width="250" alt="code-button-image">
-3. Copy the link to your clipboard.
-4. Open Git Bash.
-5. In the console type <em>"git clone"</em> and paste the copied link.
-6. Hit enter to create the clone.<br>
-    - To view what the code will look like in a browser from here type <em>" python3 -m http.server"</em>
-into the console and hit enter.
-    - A pop up will appear stating "A service is available on Port 8000" select <b>Open Browser</b>
-
 ## Testing
 
 Testing is will be carried out under three premises : User Stories,the Businesses Strategic purpose and Features.
 
 Testing will be for 3 browsers; Chrome v87, Microsoft Edge v87 & Mozilla Firefox v83 on the following screen sizes:
 
-> <b>Chrome & Microsoft Edge</b>
+> **Chrome & Microsoft Edge**
 > - Moto G4 (640 x 360)
 > - Galaxy S5 (360 x 640)
 > - Pixel 2 (411 x 731)
@@ -278,8 +264,9 @@ Testing will be for 3 browsers; Chrome v87, Microsoft Edge v87 & Mozilla Firefox
 > - iPad Pro (1024 x 1366)
 > - Surface Duo (540 x 720)
 > - Galaxy Fold (280 x 653)
+> - Laptop (1440 x 900)
 
-> <b>Mozilla Fire Fox</b>
+> **Mozilla Fire Fox**
 > - Galaxy Note 3 (360 x 640)
 > - Galaxy Note 9 (414 x 846)
 > - Galaxy S5 (360 x 640)
@@ -301,13 +288,13 @@ HTML and CSS  semantics and validity was tested through out with [W3C](https://v
 and [W3c Jigsaw](https://jigsaw.w3.org/css-validator/) for CSS.
 
 #### Funtionality and Features
-<img src="assets/images/readme/features-table.png" alt="test-table">
+![Test Table](assets/images/readme/features-table.png)
 
 #### User Stories Test 
-<img src="assets/images/readme/user-stories-table.png" alt="test-table">
+![Test Table](assets/images/readme/user-stories-table.png)
 
 #### Strategic Purpose Test
-<img src="assets/images/readme/strategic-purpose-table.png" alt="test-table">
+![Test Table](assets/images/readme/strategic-purpose-table.png)
 
 #### Bugs and Fixes
 
@@ -331,6 +318,32 @@ text shadow.
 Testing was limited to the three browsers mentioned above, although I had wished to have the site function on Safari
 as it is a popular browser I could not. I do not own an Apple Mac or Tablet and you can no longer download Safari for Windows.I reached out to colleagues
 and friends to assist with Safari testing but I am not confident to include the results for the purpose of the MS1. 
+
+## Deployment
+
+#### Deployment via GitHub Pages
+
+1. Select the _Repository_ you wish to deploy.
+2. Under the _"Repo"_ name on the top left of the screen
+there is a menu, ![menu item](assets/images/readme/depone.png) select the settings tab on this menu.
+3. Scroll down to the **GitHub Pages** section.
+4. Under **Source** use the **None or Branch** drop down menu to select the 
+publishing source you wish to use. **Main** is recommened. ![Source Image](assets/images/readme/deptwo.png)
+5. Select **Save** and refresh the page. 
+6. Your published address will appear in a green highlighted container above **Source**.
+7. Click the link to test it works.
+
+#### Making a Clone in GitPod
+1. Select the _Repo_ you wish to clone in GitHub.
+2. Click on the Code dropdown button.![Code Button img](assets/images/readme/depthree.png)
+3. Copy the link to your clipboard.
+4. Open Git Bash.
+5. In the console type _"git clone"_ and paste the copied link.
+6. Hit enter to create the clone.
+
+    - To view what the code will look like in a browser from here type _" python3 -m http.server"_
+into the console and hit enter.
+    - A pop up will appear stating "A service is available on Port 8000" select **Open Browser**
 
 ## Credits
 
