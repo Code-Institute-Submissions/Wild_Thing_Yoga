@@ -244,6 +244,8 @@ The footer in the wireframes is a little different from execution but the concep
   12. [Free Formatter](https://www.freeformatter.com/html-formatter.html) Was used in place of extensions due to an error on GitPod caused by a recent update.
   13. [W3C](https://validator.w3.org/) used to validate HTML code.
   14. [W3c Jigsaw](https://jigsaw.w3.org/css-validator/) used to validate CSS code.
+  15. [Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
+  16. [TinyJPG](https://tinyjpg.com/)For resizing images to decrease loading time.
 
 ## Testing
 
@@ -313,6 +315,8 @@ hero image. The carousel was placed inside a container "div" to combat this.
 to include the website name to show the correct location in the public site.
 - Footer display: the font in the footer wasn't as strong and easily read as I had hoped and this was combatted by adding a
 text shadow.
+- Chrome Dev Tools was used for their Light House function, image size was flagged for slowing down performance. Images that were flagged were deleted, resized
+using TinyJPG and re-uploaded.
 
 #### Testing Limitations
 Testing was limited to the three browsers mentioned above, although I had wished to have the site function on Safari
