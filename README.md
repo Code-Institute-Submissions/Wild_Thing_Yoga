@@ -227,10 +227,10 @@ The footer in the wireframes is a little different from execution but the concep
 
  ### Frameworks Libraries & Programs
 
-  1. [Git Hub](https://github.com/about) Used to store and share the projects code.
-  2. [Git/GitPod](https://www.gitpod.io/#:~:text=Gitpod%20is%20a%20multi%2Dservice,their%20own%20dedicated%20K8s%20deployment.) Used for creation, version control and to commit and push to Git Hub.
+  1. [Git Hub](https://github.com/about) Used to store, version control and share the projects code.
+  2. [Git/GitPod](https://www.gitpod.io/#:~:text=Gitpod%20is%20a%20multi%2Dservice,their%20own%20dedicated%20K8s%20deployment.) Code, build, debug and run K8s applications entirely in the cloud.
   3. [Bootstrap v4](https://getbootstrap.com/) Used for responsivness and styling of the site.
-  4. [Google Fonts](https://fonts.google.com/) Used to import the Sanchez and Raleway fonts.
+  4. [Google Fonts](https://fonts.google.com/) Used to import the Dancing Script and Raleway fonts.
   5. [Font Awesome](https://fontawesome.com/v4.7.0/) Used for footer icons.
   6. [Canva](https://www.canva.com/) For creation of the logo.
   7. [Adobe Color Wheel](https://color.adobe.com/create/image-gradient) Image gradient feature was used to extract colors used in the logo and build a colour scheme.
@@ -238,7 +238,7 @@ The footer in the wireframes is a little different from execution but the concep
   9. [Am I Responsive](http://ami.responsivedesign.is/) Used to check responsivity of code and display the mock up in the documentation.
   10. [MicroSoft Sniping Tool](https://support.microsoft.com/en-us/windows/use-snipping-tool-to-capture-screenshots-00246869-1843-655f-f220-97299b865f6b) Used for various images, such as the color swatch and
   extraction of usedful information for my project drafts and plans.
-  11. [Microsoft Photo Editor](https://support.microsoft.com/en-us/windows/edit-photos-and-videos-in-windows-10-a3a6e711-1b70-250a-93fa-ef99048a2c86) Used for editing the resolution of photos in the carosel 
+  11. [Microsoft Photo Editor](https://support.microsoft.com/en-us/windows/edit-photos-and-videos-in-windows-10-a3a6e711-1b70-250a-93fa-ef99048a2c86) Used for editing the resolution of photos in the carousel 
   to tone in with the colour scheme.
   12. [Free Formatter](https://www.freeformatter.com/html-formatter.html) Was used in place of extensions due to an error on GitPod caused by a recent update.
   13. [W3C](https://validator.w3.org/) used to validate HTML code.
@@ -313,13 +313,13 @@ hero image. The carousel was placed inside a container "div" to combat this.
 - Deployed links: Internal links were not working when the site was first deployed. File paths were updated 
 to include the website name to show the correct location in the public site.
 - Footer display: the font in the footer wasn't as strong and easily read as I had hoped and this was combatted by adding a
-text shadow.
+text shadow. Thism text shadow was later removed and the text changed to black for a better contrast.
 - Chrome Dev Tools was used for their Light House function, image size was flagged for slowing down performance. Images that were flagged were deleted, resized
 using TinyJPG and re-uploaded.
 
 #### Testing Limitations
 Testing was limited to the three browsers mentioned above, although I had wished to have the site function on Safari
-as it is a popular browser I could not. I do not own an Apple Mac or Tablet and you can no longer download Safari for Windows.I reached out to colleagues
+as it is a popular browser I could not. I do not own an Apple Mac or Tablet and you can no longer download Safari for Windows as far as I could see.I reached out to colleagues
 and friends to assist with Safari testing but I am not confident to include the results for the purpose of the MS1. 
 
 ## Deployment
@@ -328,7 +328,7 @@ and friends to assist with Safari testing but I am not confident to include the 
 
 1. Select the _Repository_ you wish to deploy.
 2. Under the _"Repo"_ name on the top left of the screen
-there is a menu, ![menu item](assets/images/readme/depone.png) select the settings tab on this menu.
+there is a menu, select the settings tab on this menu ![menu item](assets/images/readme/depone.png).
 3. Scroll down to the **GitHub Pages** section.
 4. Under **Source** use the **None or Branch** drop down menu to select the 
 publishing source you wish to use. **Main** is recommened. ![Source Image](assets/images/readme/deptwo.png)
