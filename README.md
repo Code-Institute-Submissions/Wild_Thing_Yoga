@@ -100,9 +100,9 @@ A mock up of how the site will be layed out is available here via [Wire Frames](
 
 ![Color Swatch](assets/images/readme/swatch.png)
 
-The above color swatch shows a guide line for the color scheme of the site, 
+The above colour swatch shows a guide line for the colour scheme of the site, 
 black and white will also be incorporated.
-Colors are brand colors which have been adopted for the following reasons:
+Colours are brand colours which have been adopted for the following reasons:
 
 
 Color | Consumer Association
@@ -115,11 +115,11 @@ Blue  | Serenity, reliable
 Grey  | Neutral, balance
 
 All colours tie together to make the appropriate emotional responce
-and associations the brands identifies with their business, yoga 
+and associations the brand identifies with their business, yoga 
 and a yoga practice. The colours also combine for effective and an easy to 
 read layout.
 
-_Please see [credits](#Credits) section for links to color psychology sources_
+_Please see [credits](#Credits) section for links to color psychology sources_.
 
 #### Typography
 
@@ -156,11 +156,10 @@ The footer in the wireframes is a little different from execution but the concep
         - Each page will have a navigation header.
         - Each page will have a footer.
         - Each page will have a favicon on the browser tab.
-        - Each page will have a favicon on the browser tab.
         - All links to external sources will open in a new tab.
  5. Each page will have a 'sticky' nav bar.
 
-        - Navbar will be white with black text.<br>
+        - Navbar will be white with black text.
         - The nav bar will have a circular logo on the left, a brand statement adjacent to the logo and menu options to the right.
         - The logo and brand statement will always link to the home page when clicked.
         - The active page will be emphasized with a heavier font weight in the nav menu, inactive pages will have a lighter font weight.
@@ -171,11 +170,11 @@ The footer in the wireframes is a little different from execution but the concep
  6. The home page will have:
 
         - A call to action in the hero image.
-        - A button in the call to actio that links to the booking form.
+        - A button in the call to action that links to the booking form.
         - A statement of the company offering.
         - A carousel of images of classes and studio features.
         - A testimonial section(blue with white text) with avatars (on a beige background).
-        - A FAQs section (beige).
+        - A FAQs section (beige), this section will be 3 across or stacked on a mobile device.
         - A Contact form.
 7. The Schedule & Pricing page will have:
 
@@ -191,7 +190,7 @@ The footer in the wireframes is a little different from execution but the concep
         - Video's will expand to full screen on small devices.
         - A snippet of an article with a button linked to the original location.
         - The article will be in a green container with the text in black on a white background.
-        - There will be a scroll bar on the right.
+        - There will be a scroll bar on the right of the article.
 9. The Contact Form wil have:
 
         - The form will be grey with white fields and white button.
@@ -206,7 +205,7 @@ The footer in the wireframes is a little different from execution but the concep
         - There will be a name, email, contact number and text area fields.
         - There will be a date selector field.
         - There will be radio buttons to select classes.
-        - The border wil be black and of a 1-2px weight when hovered over.
+        - The border will be black and of a 1-2px weight when hovered over.
         - The submission button will have a Book! value.
         - The button & date will be green with white text on hover.
 11. The footer will have:
@@ -228,8 +227,8 @@ The footer in the wireframes is a little different from execution but the concep
 
  ### Frameworks Libraries & Programs
 
-  1. [Git Hub](https://github.com/janeyrinn/Wild_Thing_Yoga) Used to store and share the projects code)
-  2. [Git/GitPod](https://fde7900b-2e73-4d3d-8066-0c3a506e1ef2.ws-eu01.gitpod.io/#/workspace/Wild_Thing_Yoga) Used for creation, version control and to commit and push to Git Hub.
+  1. [Git Hub](https://github.com/about) Used to store and share the projects code.
+  2. [Git/GitPod](https://www.gitpod.io/#:~:text=Gitpod%20is%20a%20multi%2Dservice,their%20own%20dedicated%20K8s%20deployment.) Used for creation, version control and to commit and push to Git Hub.
   3. [Bootstrap v4](https://getbootstrap.com/) Used for responsivness and styling of the site.
   4. [Google Fonts](https://fonts.google.com/) Used to import the Sanchez and Raleway fonts.
   5. [Font Awesome](https://fontawesome.com/v4.7.0/) Used for footer icons.
